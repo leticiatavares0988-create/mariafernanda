@@ -48,12 +48,18 @@ export default function FeaturedProjects() {
     media.addEventListener('change', measure);
     const images = Array.from(track.querySelectorAll('img'));
     images.forEach((img) => img.addEventListener('load', measure));
+    // re-measure when fonts load or the track/cards change size
+    if (document.fonts) document.fonts.ready.then(measure);
+    const ro = new ResizeObserver(measure);
+    ro.observe(track);
+    Array.from(track.children).forEach((el) => ro.observe(el));
 
     return () => {
       window.removeEventListener('scroll', update);
       window.removeEventListener('resize', measure);
       media.removeEventListener('change', measure);
       images.forEach((img) => img.removeEventListener('load', measure));
+      ro.disconnect();
     };
   }, []);
 
