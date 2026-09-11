@@ -17015,3 +17015,8 @@ html {
 .header .menu-cta {
   margin-top: 20px;
 }
+
+/* Menu contacts */
+.header .menu-contact {
+  font-size: 14px;
+}

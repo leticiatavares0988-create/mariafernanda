@@ -52,8 +52,8 @@ export default function Header() {
                     className="btn btn-purple fs-6 px-3 py-2 w-100 hstack justify-content-center menu-cta">Pedir orçamento</a>
                   </div>
                   <div className="d-flex flex-column gap-1">
-                    <a className="text-dark fs-5 text-nowrap" href="tel:+5518997056598">(18) 99705-6598</a>
-                    <a className="text-dark fs-5 fw-bold text-nowrap" href="mailto:mariafernanda2109@gmail.com">mariafernanda2109@gmail.com</a>
+                    <a className="text-dark menu-contact text-nowrap" href="tel:+5518997056598">(18) 99705-6598</a>
+                    <a className="text-dark menu-contact fw-bold text-nowrap" href="mailto:mariafernanda2109@gmail.com">mariafernanda2109@gmail.com</a>
                   </div>
                 </div>
               </ul>
