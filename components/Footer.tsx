@@ -3,7 +3,10 @@ export default function Footer() {
     <footer className="footer bg-dark py-5 py-lg-11 py-xl-12">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 col-xl-3 mb-8 mb-xl-0">
+          <div className="col-xl-5 mb-8 mb-xl-0">
+            <h2 className="mb-0 text-white pe-xl-5">Vamos criar algo juntos?</h2>
+          </div>
+          <div className="col-md-6 col-xl-3 mb-8 mb-xl-0">
             <ul className="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
               <li><a className="link-hover footer-text text-white" href="/">Início</a></li>
               <li><a className="link-hover footer-text text-white" href="#about">Sobre</a></li>
@@ -13,7 +16,7 @@ export default function Footer() {
               <li><a className="link-hover footer-text text-white" href="#contact">Contato</a></li>
             </ul>
           </div>
-          <div className="col-md-4 col-xl-5 mb-8 mb-xl-0">
+          <div className="col-md-6 col-xl-4 mb-8 mb-xl-0">
             <p className="mb-3 footer-text fw-bold text-white">Contatos</p>
             <ul className="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
               <li>
@@ -35,9 +38,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-          <div className="col-md-4 col-xl-4 mb-8 mb-xl-0">
-            <p className="mb-0 text-white text-opacity-70 text-md-end">© Maria Fernanda 2026. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>
