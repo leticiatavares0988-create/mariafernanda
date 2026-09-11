@@ -14,8 +14,8 @@ export default function Banner() {
                 data-aos-duration="1000">
                 <CatMotion />
                 <p className="mb-0 text-white hero-lead">Crio <span
-                    className="text-primary">sites e landing pages</span> para profissionais e empresas que querem
-                  transformar visitantes em clientes.</p>
+                    className="text-primary">sites e landing pages</span> para profissionais e empresas<br className="d-none d-lg-inline" />
+                  que querem transformar visitantes em clientes.</p>
               </div>
             </div>
           </div>
