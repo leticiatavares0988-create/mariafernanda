@@ -30,7 +30,7 @@ export default function FeaturedProjects() {
         track.style.transform = '';
         return;
       }
-      distance = Math.max(track.scrollWidth - track.parentElement!.clientWidth, 0);
+      distance = Math.max(track.scrollWidth - track.clientWidth, 0);
       wrapper.style.height = `${window.innerHeight + distance}px`;
       update();
     };
@@ -85,7 +85,7 @@ export default function FeaturedProjects() {
               </div>
             </div>
           </div>
-          <div className="featured-projects-slider projects-viewport px-3">
+          <div className="featured-projects-slider projects-viewport container">
             <div ref={trackRef} className="projects-track d-flex">
               {projects.map((project, index) => (
                 <div key={index} className="projects-item flex-shrink-0">

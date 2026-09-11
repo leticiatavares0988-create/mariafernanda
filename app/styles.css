@@ -16804,6 +16804,7 @@ ul {
 @media (max-width: 991.98px) {
   .projects-viewport {
     overflow-x: auto;
+    scroll-padding-inline: var(--bs-gutter-x, 0.75rem);
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
@@ -16816,6 +16817,9 @@ ul {
   }
 }
 @media (min-width: 992px) {
+  .projects-viewport {
+    overflow: visible;
+  }
   .projects-sticky {
     position: sticky;
     top: 0;
