@@ -17070,5 +17070,5 @@ h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4
 
 /* Section intro paragraphs */
 .page-wrapper p.fs-5 {
-  line-height: 110%;
+  line-height: 115%;
 }
