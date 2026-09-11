@@ -1,3 +1,5 @@
+import HeroVideo from '@/components/HeroVideo';
+
 export default function Testimonial() {
   return (
     <section className="testimonial py-5 py-lg-11 py-xl-12 bg-light-gray">
@@ -27,26 +29,27 @@ export default function Testimonial() {
           </div>
           <div className="row gap-7 gap-lg-0">
             <div className="col-lg-4 col-xl-3 d-flex align-items-stretch">
-              <div className="card bg-primary w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+              <div className="card bg-dark w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div className="d-flex flex-column gap-4">
-                    <p className="mb-0">Depoimento</p>
-                    <h4 className="mb-0">O redesign do meu site ficou impecável. Ela entendeu exatamente o que eu queria.</h4>
+                    <p className="mb-0 text-white text-opacity-70">Depoimento</p>
+                    <h4 className="mb-0 text-white">O redesign do meu site ficou impecável. Ela entendeu exatamente o que eu queria.</h4>
                   </div>
                   <div className="hstack gap-3">
                     <img src="/assets/images/testimonial/testimonial-1.jpg" alt=""
                       className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
                     <div>
-                      <h5 className="mb-1 fw-normal">Carlos Mendes</h5>
-                      <p className="mb-0">Studio Pilates Flow</p>
+                      <h5 className="mb-1 fw-normal text-white">Carlos Mendes</h5>
+                      <p className="mb-0 text-white text-opacity-70">Studio Pilates Flow</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-xl-6 d-flex align-items-stretch">
-              <div className="card bg-dark w-100" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
+              <div className="card bg-dark w-100 position-relative overflow-hidden video-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <HeroVideo speed={0.6} className="video-card-bg" />
+                <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between position-relative z-1">
                   <div className="d-flex flex-column gap-4">
                     <p className="mb-0 text-white text-opacity-70">Depoimento</p>
                     <h4 className="mb-0 text-white pe-xl-2">Do briefing à publicação, o processo foi tranquilo e o resultado superou as
