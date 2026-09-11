@@ -53,8 +53,9 @@ export default function Faq() {
                   </h2>
                   <div id="flush-collapseTwo" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Uma landing page costuma ficar pronta em 7 a 15 dias. Um site institucional completo, com páginas
-                      de serviços, sobre e contato, leva em média de 3 a 5 semanas. Você acompanha cada etapa.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Uma landing page fica pronta em 3 a 7 dias. Um site institucional completo, com páginas de
+                      serviços, sobre e contato, leva um pouco mais, dependendo do número de páginas. Você acompanha
+                      cada etapa.</div>
                   </div>
                 </div>
                 <div className="accordion-item">
