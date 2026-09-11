@@ -16858,3 +16858,58 @@ ul {
 .header.fixed-header .logo-text span {
   color: var(--bs-dark) !important;
 }
+
+/* Cat motion (hero) */
+.cat-motion {
+  overflow: visible;
+}
+.cat-motion .cat-head {
+  transform-origin: 32px 40px;
+  animation: cat-head 12s ease-in-out infinite;
+}
+.cat-motion .cat-pupil {
+  animation: cat-look 12s ease-in-out infinite;
+}
+.cat-motion .cat-eye {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: cat-blink 12s ease-in-out infinite;
+}
+.cat-motion .cat-ear-left {
+  transform-origin: 20px 26px;
+  animation: cat-ear 12s ease-in-out infinite;
+}
+.cat-motion .cat-ear-right {
+  transform-origin: 44px 26px;
+  animation: cat-ear 12s ease-in-out infinite reverse;
+}
+@keyframes cat-look {
+  0%, 12% { transform: translate(0, 0); }
+  20%, 30% { transform: translate(-2.4px, 0.4px); }
+  38%, 48% { transform: translate(2.4px, 0.4px); }
+  56%, 60% { transform: translate(0.6px, 0); }
+  70%, 84% { transform: translate(0.4px, -3.2px); }
+  92%, 100% { transform: translate(0, 0); }
+}
+@keyframes cat-head {
+  0%, 60% { transform: rotate(0deg) translateY(0); }
+  72%, 84% { transform: rotate(-4deg) translateY(-1.5px); }
+  94%, 100% { transform: rotate(0deg) translateY(0); }
+}
+@keyframes cat-blink {
+  0%, 26%, 30%, 63%, 66%, 100% { transform: scaleY(1); }
+  28%, 64.5% { transform: scaleY(0.08); }
+}
+@keyframes cat-ear {
+  0%, 44%, 50%, 100% { transform: rotate(0deg); }
+  47% { transform: rotate(-8deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cat-motion .cat-head,
+  .cat-motion .cat-pupil,
+  .cat-motion .cat-eye,
+  .cat-motion .cat-ear-left,
+  .cat-motion .cat-ear-right {
+    animation: none;
+  }
+}

@@ -1,3 +1,5 @@
+import CatMotion from '@/components/CatMotion';
+
 export default function Banner() {
   return (
     <section className="banner-section position-relative d-flex align-items-end min-vh-100">
@@ -10,7 +12,7 @@ export default function Banner() {
             <div className="col-xl-4">
               <div className="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
-                <img src="/assets/images/svgs/leaf-primary.svg" alt="" className="img-fluid animate-spin" />
+                <CatMotion />
                 <p className="mb-0 text-white fs-5 text-opacity-70">Crio <span
                     className="text-primary">sites e landing pages</span> para profissionais e empresas que querem
                   transformar visitantes em clientes.</p>
