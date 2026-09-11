@@ -5,7 +5,6 @@ import FeaturedProjects from '@/components/FeaturedProjects';
 import Services from '@/components/Services';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Testimonial from '@/components/Testimonial';
-import Pricing from '@/components/Pricing';
 import Faq from '@/components/Faq';
 import GetInTouch from '@/components/GetInTouch';
 import Footer from '@/components/Footer';
@@ -22,7 +21,6 @@ export default function Home() {
         <Services />
         <WhyChooseUs />
         <Testimonial />
-        <Pricing />
         <Faq />
         <GetInTouch />
       </div>

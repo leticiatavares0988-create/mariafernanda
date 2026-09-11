@@ -8,7 +8,7 @@ export default function Faq() {
               <div className="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">07</span>
+                  className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">06</span>
                 <hr className="border-line bg-white" />
                 <span className="badge text-bg-dark">FAQs</span>
               </div>
