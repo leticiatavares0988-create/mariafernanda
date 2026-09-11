@@ -83,7 +83,7 @@ export default function CatVideo({ size = 96, white = true }: { size?: number; w
     <span className="cat-video flex-shrink-0 d-inline-block" style={{ width: size, height }} aria-hidden="true">
       <video ref={videoRef} src="/assets/images/backgrounds/cat-animation.mp4" muted loop playsInline preload="auto"
         className="d-none" />
-      <canvas ref={canvasRef} style={{ width: size, height, display: 'block', filter: white ? 'invert(1)' : 'none' }} />
+      <canvas ref={canvasRef} style={{ width: size, height, display: 'block', filter: white ? 'invert(1)' : 'none', transform: 'scaleX(-1)' }} />
     </span>
   );
 }
