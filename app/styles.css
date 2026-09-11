@@ -17039,3 +17039,20 @@ h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
+/* Purple CTAs and badges: gradient background */
+.btn:not(.btn-ghost):not(.btn-purple):not(.toggle-menu):not(.btn-dark),
+.bg-primary {
+  background-image: linear-gradient(135deg, #C4A5FF 0%, #B388FF 45%, #9D6BFF 100%) !important;
+}
+.btn:not(.btn-ghost):not(.btn-purple):not(.toggle-menu):not(.btn-dark):hover,
+.btn:not(.btn-ghost):not(.btn-purple):not(.toggle-menu):not(.btn-dark):focus-visible {
+  background-image: none !important;
+}
+.btn-purple {
+  background-image: linear-gradient(135deg, #6D3BC7 0%, #5B2EA6 60%, #4A2390 100%);
+}
+.btn-purple:hover,
+.btn-purple:focus-visible {
+  background-image: none;
+}
