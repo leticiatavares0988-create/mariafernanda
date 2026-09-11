@@ -77,8 +77,8 @@ export default function FeaturedProjects() {
                     <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                       data-aos-duration="1000">
                       <h2 className="mb-0">Projetos em destaque</h2>
-                      <p className="fs-5 mb-0">Um pouco do que já criei: sites e landing pages pensados para cada marca, com foco em
-                        resultado.</p>
+                      <p className="fs-5 mb-0">Um pouco do que já criei para psicólogos, médicos, clínicas, advogados e negócios locais: sites e
+                        landing pages que passam confiança e trazem novos clientes.</p>
                     </div>
                   </div>
                 </div>
