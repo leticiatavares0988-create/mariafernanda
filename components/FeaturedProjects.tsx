@@ -59,7 +59,7 @@ export default function FeaturedProjects() {
   return (
     <section id="portfolio" className="featured-projects bg-light-gray">
       <div ref={wrapperRef} className="projects-wrapper">
-        <div className="projects-sticky d-flex flex-column justify-content-center gap-5 gap-xl-11 py-5 py-lg-11 py-xl-12">
+        <div className="projects-sticky d-flex flex-column justify-content-center py-5 py-lg-11 py-xl-12">
           <div className="container">
             <div className="row gap-7 gap-xl-0">
               <div className="col-xl-4 col-xxl-4">

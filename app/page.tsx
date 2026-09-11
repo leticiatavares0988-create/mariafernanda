@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="page-wrapper overflow-hidden">
+      <div className="page-wrapper">
         <Banner />
         <StatsFacts />
         <FeaturedProjects />
