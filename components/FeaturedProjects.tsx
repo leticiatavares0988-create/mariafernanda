@@ -5,12 +5,10 @@ import { useEffect, useRef } from 'react';
 const projects = [
   { image: '/assets/images/portfolio/andreia-eiras.jpg', title: 'Andréia Eiras', tags: ['Landing page', 'Fisioterapia'], url: 'https://andreia-eiras.vercel.app' },
   { image: '/assets/images/portfolio/isabella-de-luna.jpg', title: 'Isabella de Luna', tags: ['Landing page', 'Psicologia'], url: 'https://isabelladelunapsicologa.vercel.app' },
-  { image: '/assets/images/portfolio/portfolio-img-1.jpg', title: 'Clínica Vida Leve', tags: ['Landing page', 'Identidade visual'], url: '#portfolio' },
-  { image: '/assets/images/portfolio/portfolio-img-2.jpg', title: 'Loja Bem Casa', tags: ['E-commerce', 'UI Design'], url: '#portfolio' },
-  { image: '/assets/images/portfolio/portfolio-img-3.jpg', title: 'Studio Pilates Flow', tags: ['Site institucional', 'SEO'], url: '#portfolio' },
-  { image: '/assets/images/portfolio/portfolio-img-4.jpg', title: 'Doce Encanto Confeitaria', tags: ['Landing page', 'Design digital'], url: '#portfolio' },
-  { image: '/assets/images/portfolio/portfolio-img-5.jpg', title: 'Arquiteta Renata Lima', tags: ['Portfólio', 'Web design'], url: '#portfolio' },
-  { image: '/assets/images/portfolio/portfolio-img-6.jpg', title: 'Revista Conecta', tags: ['Editorial digital', 'Desenvolvimento web'], url: '#portfolio' },
+  { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
+  { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
+  { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
+  { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
 ];
 
 export default function FeaturedProjects() {
