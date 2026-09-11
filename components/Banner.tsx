@@ -5,7 +5,7 @@ export default function Banner() {
         <source src="/assets/images/backgrounds/hero-video.mp4" type="video/mp4" />
       </video>
       <div className="container">
-        <div className="d-flex flex-column gap-4 pb-8 position-relative z-1">
+        <div className="d-flex flex-column gap-4 pb-8 pb-lg-12 position-relative z-1">
           <div className="row align-items-center">
             <div className="col-xl-4">
               <div className="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
