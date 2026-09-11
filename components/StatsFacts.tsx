@@ -18,7 +18,7 @@ export default function StatsFacts() {
                 <div className="col-xxl-8">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0">Sites bem feitos, <span className="text-gradient">pensados para vender</span>.</h2>
+                    <h2 className="mb-0">Sites bem feitos, <span className="text-gradient">pensados para vender.</span></h2>
                     <p className="fs-5 mb-0">Psicólogos, médicos, clínicas, advogados e negócios locais: crio sites que passam confiança e
                       transformam quem pesquisa no Google em quem agenda um horário.</p>
                   </div>

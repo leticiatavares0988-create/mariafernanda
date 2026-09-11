@@ -17027,8 +17027,12 @@ html {
   color: #5B2EA6 !important;
 }
 
-/* Gradient keyword in headings */
+/* Gradient keyword in headings: heading regular, keyword bold */
+h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4:has(> .text-gradient) {
+  font-weight: 400;
+}
 .text-gradient {
+  font-weight: 700;
   background: linear-gradient(90deg, #B388FF 0%, #8B5CF6 45%, #D66DFF 75%, #F472B6 100%);
   -webkit-background-clip: text;
   background-clip: text;

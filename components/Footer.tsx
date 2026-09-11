@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-xl-5 mb-8 mb-xl-0">
-            <h2 className="mb-0 text-white pe-xl-5">Vamos criar <span className="text-gradient">algo juntos</span>?</h2>
+            <h2 className="mb-0 text-white pe-xl-5">Vamos criar <span className="text-gradient">algo juntos?</span></h2>
           </div>
           <div className="col-md-6 col-xl-3 mb-8 mb-xl-0">
             <ul className="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
