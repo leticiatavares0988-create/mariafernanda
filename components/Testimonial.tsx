@@ -36,8 +36,7 @@ export default function Testimonial() {
                     <h4 className="mb-0 text-white">O redesign do meu site ficou impecável. Ela entendeu exatamente o que eu queria.</h4>
                   </div>
                   <div className="hstack gap-3">
-                    <img src="/assets/images/testimonial/testimonial-1.jpg" alt=""
-                      className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
+                    <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#B388FF', color: '#1F2A2E' }} aria-hidden="true"><iconify-icon icon="solar:user-bold" className="fs-6"></iconify-icon></span>
                     <div>
                       <h5 className="mb-1 fw-normal text-white">Carlos Mendes</h5>
                       <p className="mb-0 text-white text-opacity-70">Studio Pilates Flow</p>
@@ -72,8 +71,7 @@ export default function Testimonial() {
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="hstack gap-3">
-                      <img src="/assets/images/testimonial/testimonial-2.jpg" alt=""
-                        className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
+                      <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#B388FF', color: '#1F2A2E' }} aria-hidden="true"><iconify-icon icon="solar:user-heart-bold" className="fs-6"></iconify-icon></span>
                       <div>
                         <h5 className="mb-1 fw-normal text-white">Roberta Alves</h5>
                         <p className="mb-0 text-white text-opacity-70">Loja Bem Casa</p>
@@ -93,8 +91,7 @@ export default function Testimonial() {
                     <h4 className="mb-0">Processo leve e resultado incrível. Minha landing page começou a gerar contatos na primeira semana.</h4>
                   </div>
                   <div className="hstack gap-3">
-                    <img src="/assets/images/testimonial/testimonial-3.jpg" alt=""
-                      className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
+                    <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#5B2EA6', color: '#FFFFFF' }} aria-hidden="true"><iconify-icon icon="solar:user-check-bold" className="fs-6"></iconify-icon></span>
                     <div>
                       <h5 className="mb-1 fw-normal">Fernanda Souza</h5>
                       <p className="mb-0">Clínica Vida Leve</p>

@@ -50,8 +50,7 @@ export default function WhyChooseUs() {
                         <p className="mb-0 text-white text-opacity-70">Clientes satisfeitos</p>
                       </div>
                       <div className="hstack gap-6 pt-6">
-                        <img src="/assets/images/profile/avatar-1.png" alt=""
-                          className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="64" height="64" />
+                        <span className="avatar-flat avatar-64 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#B388FF', color: '#1F2A2E' }} aria-hidden="true"><iconify-icon icon="solar:user-heart-bold" className="fs-6"></iconify-icon></span>
                         <div>
                           <h5 className="mb-0 text-white">Andréia Eiras</h5>
                           <p className="mb-0 text-white text-opacity-70">Fisioterapeuta</p>

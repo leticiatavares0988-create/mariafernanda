@@ -17072,3 +17072,11 @@ h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4
 .page-wrapper p.fs-5 {
   line-height: 120%;
 }
+.avatar-flat.avatar-60 {
+  width: 60px;
+  height: 60px;
+}
+.avatar-flat.avatar-64 {
+  width: 64px;
+  height: 64px;
+}
