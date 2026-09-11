@@ -17010,3 +17010,8 @@ html {
     scroll-behavior: auto;
   }
 }
+
+/* Menu CTA: extra breathing room above */
+.header .menu-cta {
+  margin-top: 10px;
+}

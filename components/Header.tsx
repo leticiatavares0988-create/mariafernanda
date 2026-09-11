@@ -49,7 +49,7 @@ export default function Header() {
                     </li>
                     </ul>
                     <a href="https://wa.me/5518997056598" target="_blank" rel="noreferrer"
-                    className="btn btn-purple fs-6 px-3 py-2 w-100 hstack justify-content-center">Pedir orçamento</a>
+                    className="btn btn-purple fs-6 px-3 py-2 w-100 hstack justify-content-center menu-cta">Pedir orçamento</a>
                   </div>
                   <div className="d-flex flex-column gap-1">
                     <a className="text-dark fs-5 text-nowrap" href="tel:+5518997056598">(18) 99705-6598</a>
