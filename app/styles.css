@@ -17060,3 +17060,10 @@ h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4
 .btn-purple:focus-visible {
   background-image: none;
 }
+
+/* Section number badges */
+.round-36.bg-primary {
+  background-color: #2E1456 !important;
+  background-image: none !important;
+  color: var(--bs-white) !important;
+}
