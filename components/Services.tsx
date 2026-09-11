@@ -59,8 +59,8 @@ export default function Services() {
                         </div>
                         <div className="col-lg-6 col-xxl-7">
                           <p className="text-white text-opacity-70 mb-0">
-                            Páginas focadas em um único objetivo: captar contatos, vender um produto ou divulgar um
-                            lançamento, com texto e layout pensados para converter.
+                            Páginas focadas em um único objetivo: fazer o paciente ou cliente agendar, pedir orçamento ou
+                            chamar no WhatsApp, com texto e layout pensados para converter.
                           </p>
                         </div>
                       </div>
@@ -76,8 +76,8 @@ export default function Services() {
                         </div>
                         <div className="col-lg-6 col-xxl-7">
                           <p className="text-white text-opacity-70 mb-0">
-                            Sites completos para apresentar sua empresa com profissionalismo, fáceis de navegar em qualquer
-                            dispositivo.
+                            Sites completos para consultórios, clínicas e empresas apresentarem seus serviços com
+                            profissionalismo, fáceis de navegar em qualquer dispositivo.
                           </p>
                         </div>
                       </div>

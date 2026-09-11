@@ -19,8 +19,8 @@ export default function StatsFacts() {
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
                     <h2 className="mb-0">Sites bem feitos, pensados para vender.</h2>
-                    <p className="fs-5 mb-0">Na hora de escolher quem vai criar o seu site, vale olhar experiência, portfólio e o que o seu
-                      projeto realmente precisa. Aqui você encontra os três.</p>
+                    <p className="fs-5 mb-0">Psicólogos, médicos, clínicas, advogados e negócios locais: crio sites que passam confiança e
+                      transformam quem pesquisa no Google em quem agenda um horário.</p>
                   </div>
                 </div>
               </div>

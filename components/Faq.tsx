@@ -19,7 +19,8 @@ export default function Faq() {
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
                     <h2 className="mb-0">Perguntas frequentes</h2>
-                    <p className="fs-5 mb-0 text-opacity-70">Saiba como funciona o processo de criação do seu site, do primeiro contato à entrega.</p>
+                    <p className="fs-5 mb-0 text-opacity-70">Respostas para as dúvidas mais comuns de profissionais e empresas que querem ter presença online
+                      de verdade.</p>
                   </div>
                 </div>
               </div>
@@ -33,65 +34,68 @@ export default function Faq() {
                   <h2 className="accordion-header">
                     <button className="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Quais serviços você oferece?
+                      Para quem você cria sites?
                     </button>
                   </h2>
                   <div id="flush-collapseOne" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Crio landing pages, sites institucionais e interfaces para negócios que querem vender mais pela
-                      internet. Também faço otimização de sites que já existem.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Para profissionais e empresas que dependem de confiança para fechar clientes: psicólogos, médicos,
+                      dentistas, advogados, clínicas, consultórios e negócios locais. Crio landing pages e sites
+                      institucionais que apresentam o seu trabalho e facilitam o agendamento ou o contato.</div>
                   </div>
                 </div>
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button className="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Quanto tempo leva um projeto?
+                      Quanto tempo leva para o meu site ficar pronto?
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Uma landing page costuma ficar pronta em 7 a 15 dias. Sites institucionais levam em média de 3 a 5
-                      semanas, dependendo do número de páginas.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Uma landing page costuma ficar pronta em 7 a 15 dias. Um site institucional completo, com páginas
+                      de serviços, sobre e contato, leva em média de 3 a 5 semanas. Você acompanha cada etapa.</div>
                   </div>
                 </div>
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button className="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Os sites são personalizados ou usam template?
+                      Preciso ter textos e fotos prontos?
                     </button>
                   </h2>
                   <div id="flush-collapseThree" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Todo projeto é desenhado do zero a partir da sua marca e dos seus objetivos. Nada de layout
-                      genérico.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Não. Eu te ajudo a organizar o que dizer sobre os seus serviços e indico o que funciona melhor em
+                      fotos. Se você já tiver material, ótimo, aproveitamos tudo.</div>
                   </div>
                 </div>
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button className="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      Quanto custa um site?
+                      Quanto custa um site para consultório ou clínica?
                     </button>
                   </h2>
                   <div id="flush-collapseFour" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">O valor depende do tipo de projeto e do que ele precisa. Me chame no WhatsApp com uma descrição do
-                      que você imagina e envio um orçamento sem compromisso.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Depende do tamanho do projeto: uma landing page para captar pacientes tem um valor, um site com
+                      várias especialidades tem outro. Me chame no WhatsApp contando sobre o seu negócio e envio um
+                      orçamento sem compromisso.</div>
                   </div>
                 </div>
                 <div className="accordion-item border-bottom">
                   <h2 className="accordion-header">
                     <button className="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                      Você dá suporte depois da entrega?
+                      O site vai aparecer no Google e funcionar no celular?
                     </button>
                   </h2>
                   <div id="flush-collapseFive" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Sim. Acompanho a publicação, ensino a fazer atualizações simples e ofereço planos de manutenção para
-                      quem precisa de ajustes frequentes.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Sim. Todo site sai otimizado para celular, com carregamento rápido e a estrutura que o Google
+                      espera. Depois da publicação, continuo disponível para ajustes e ofereço planos de manutenção
+                      para quem precisa de atualizações frequentes.</div>
                   </div>
                 </div>
               </div>

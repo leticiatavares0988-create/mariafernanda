@@ -12,8 +12,8 @@ export default function Banner() {
                 data-aos-duration="1000">
                 <img src="/assets/images/svgs/leaf-primary.svg" alt="" className="img-fluid animate-spin" />
                 <p className="mb-0 text-white fs-5 text-opacity-70">Crio <span
-                    className="text-primary">sites e landing pages</span> que transformam visitantes em clientes e
-                  fazem sua marca vender mais.</p>
+                    className="text-primary">sites e landing pages</span> para profissionais e empresas que querem
+                  transformar visitantes em clientes.</p>
               </div>
             </div>
           </div>
