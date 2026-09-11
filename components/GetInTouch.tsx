@@ -8,7 +8,7 @@ export default function GetInTouch() {
               <div className="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                 data-aos-duration="1000">
                 <span
-                  className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">10</span>
+                  className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">08</span>
                 <hr className="border-line bg-white" />
                 <span className="badge text-bg-dark">Contact us</span>
               </div>
@@ -31,25 +31,18 @@ export default function GetInTouch() {
                 ears.</p>
             </div>
             <div className="col-xl-8">
-              <form action="#!" method="post" className="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <div>
-                  <input type="text" className="form-control border-bottom border-dark" id="formGroupExampleInput"
-                    placeholder="Name" />
-                </div>
-                <div>
-                  <input type="email" className="form-control border-bottom border-dark" id="exampleInputEmail1"
-                    placeholder="Email" aria-describedby="emailHelp" />
-                </div>
-                <div>
-                  <textarea className="form-control border-bottom border-dark" id="exampleFormControlTextarea1"
-                    placeholder="Tell us about your project" rows={3}></textarea>
-                </div>
-                <button type="submit" className="btn w-100 justify-content-center">
-                  <span className="btn-text">Submit message</span>
+              <div className="d-flex flex-column flex-sm-row align-items-sm-center gap-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <a href="mailto:info@wrappixel.com" className="btn">
+                  <span className="btn-text">Start a project</span>
                   <iconify-icon icon="lucide:arrow-up-right"
                     className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
-                </button>
-              </form>
+                </a>
+                <a href="tel:+1-212-456-7890" className="btn border border-dark border-opacity-25 bg-transparent">
+                  <span className="btn-text">+1-212-456-7890</span>
+                  <iconify-icon icon="lucide:phone"
+                    className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
+                </a>
+              </div>
             </div>
           </div>
         </div>

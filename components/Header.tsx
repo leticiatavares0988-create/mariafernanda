@@ -44,11 +44,6 @@ export default function Header() {
                             className="img-fluid animate-spin" />Projects</a>
                       </li>
                       <li className="header-item">
-                        <a href="#blog" className="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                            src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                            className="img-fluid animate-spin" />Blog</a>
-                      </li>
-                      <li className="header-item">
                         <a href="/" className="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                             src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                             className="img-fluid animate-spin" />Services</a>

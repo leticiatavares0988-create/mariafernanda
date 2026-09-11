@@ -9,7 +9,7 @@ export default function Pricing() {
                 <div className="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
                   data-aos-duration="1000">
                   <span
-                    className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">07</span>
+                    className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">06</span>
                   <hr className="border-line bg-white" />
                   <span className="badge text-bg-dark">Pricing</span>
                 </div>
@@ -175,73 +175,6 @@ export default function Pricing() {
                         className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
                     </a>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex flex-column gap-8" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-            <p className="fs-5 mb-0 text-center text-dark">More than 320 trusted partners & clients</p>
-            <div className="marquee w-100 d-flex align-items-center overflow-hidden">
-              <div className="marquee-content d-flex align-items-center gap-8">
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-1.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-2.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-3.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-4.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-5.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-1.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-2.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-3.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-4.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-5.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-1.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-2.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-3.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-4.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-5.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-1.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-2.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-3.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-4.svg" alt="partners" className="img-fluid" />
-                </div>
-                <div className="marquee-tag hstack justify-content-center">
-                  <img src="/assets/images/pricing/partners-5.svg" alt="partners" className="img-fluid" />
                 </div>
               </div>
             </div>

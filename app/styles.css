@@ -16790,3 +16790,36 @@ ul {
   color: var(--bs-dark);
   background-color: var(--bs-white);
 }/*# sourceMappingURL=styles.css.map */
+/* Featured projects: horizontal scroll tied to page scroll */
+.projects-track {
+  gap: 30px;
+  will-change: transform;
+}
+.projects-item {
+  width: min(85vw, 420px);
+}
+@media (max-width: 991.98px) {
+  .projects-viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .projects-viewport::-webkit-scrollbar {
+    display: none;
+  }
+  .projects-item {
+    scroll-snap-align: start;
+  }
+}
+@media (min-width: 992px) {
+  .projects-sticky {
+    position: sticky;
+    top: 0;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .projects-item {
+    width: 450px;
+  }
+}

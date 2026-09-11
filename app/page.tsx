@@ -5,13 +5,11 @@ import FeaturedProjects from '@/components/FeaturedProjects';
 import Services from '@/components/Services';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Testimonial from '@/components/Testimonial';
-import Team from '@/components/Team';
 import Pricing from '@/components/Pricing';
 import Faq from '@/components/Faq';
-import RecentNews from '@/components/RecentNews';
 import GetInTouch from '@/components/GetInTouch';
 import Footer from '@/components/Footer';
-import GetTemplate from '@/components/GetTemplate';
+import ScrollToTop from '@/components/ScrollToTop';
 
 export default function Home() {
   return (
@@ -24,14 +22,12 @@ export default function Home() {
         <Services />
         <WhyChooseUs />
         <Testimonial />
-        <Team />
         <Pricing />
         <Faq />
-        <RecentNews />
         <GetInTouch />
       </div>
       <Footer />
-      <GetTemplate />
+      <ScrollToTop />
     </>
   );
 }
