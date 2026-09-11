@@ -42,8 +42,8 @@ export default function StatsFacts() {
                 <div className="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div className="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="400"
                     data-aos-duration="1000">
-                    <h2 className="mb-0 fs-14"><span className="count" data-target="5">5</span> dias</h2>
-                    <p className="mb-0">Prazo máximo de entrega de uma landing page</p>
+                    <h2 className="mb-0 fs-14"><span className="count" data-target="7">7</span> dias</h2>
+                    <p className="mb-0">Prazo máximo de entrega da primeira versão de uma landing page</p>
                   </div>
                 </div>
               </div>

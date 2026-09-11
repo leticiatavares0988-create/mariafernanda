@@ -16913,3 +16913,14 @@ ul {
     animation: none;
   }
 }
+
+/* Hero lead text */
+.hero-lead {
+  font-size: 18px;
+  line-height: 1.4;
+}
+@media (min-width: 992px) {
+  .hero-lead {
+    font-size: 22px;
+  }
+}

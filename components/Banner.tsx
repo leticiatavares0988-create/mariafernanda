@@ -9,11 +9,11 @@ export default function Banner() {
       <div className="container">
         <div className="d-flex flex-column gap-4 pb-8 pb-lg-12 position-relative z-1">
           <div className="row align-items-center">
-            <div className="col-xl-4">
+            <div className="col-xl-8">
               <div className="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
                 <CatMotion />
-                <p className="mb-0 text-white fs-5 text-opacity-70">Crio <span
+                <p className="mb-0 text-white hero-lead">Crio <span
                     className="text-primary">sites e landing pages</span> para profissionais e empresas que querem
                   transformar visitantes em clientes.</p>
               </div>
