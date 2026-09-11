@@ -3,12 +3,13 @@
 import { useEffect, useRef } from 'react';
 
 const projects = [
-  { image: '/assets/images/portfolio/portfolio-img-1.jpg', title: 'Clínica Vida Leve', tags: ['Landing page', 'Identidade visual'] },
-  { image: '/assets/images/portfolio/portfolio-img-2.jpg', title: 'Loja Bem Casa', tags: ['E-commerce', 'UI Design'] },
-  { image: '/assets/images/portfolio/portfolio-img-3.jpg', title: 'Studio Pilates Flow', tags: ['Site institucional', 'SEO'] },
-  { image: '/assets/images/portfolio/portfolio-img-4.jpg', title: 'Doce Encanto Confeitaria', tags: ['Landing page', 'Design digital'] },
-  { image: '/assets/images/portfolio/portfolio-img-5.jpg', title: 'Arquiteta Renata Lima', tags: ['Portfólio', 'Web design'] },
-  { image: '/assets/images/portfolio/portfolio-img-6.jpg', title: 'Revista Conecta', tags: ['Editorial digital', 'Desenvolvimento web'] },
+  { image: '/assets/images/portfolio/andreia-eiras.jpg', title: 'Andréia Eiras', tags: ['Landing page', 'Fisioterapia'], url: 'https://andreia-eiras.vercel.app' },
+  { image: '/assets/images/portfolio/portfolio-img-1.jpg', title: 'Clínica Vida Leve', tags: ['Landing page', 'Identidade visual'], url: '#portfolio' },
+  { image: '/assets/images/portfolio/portfolio-img-2.jpg', title: 'Loja Bem Casa', tags: ['E-commerce', 'UI Design'], url: '#portfolio' },
+  { image: '/assets/images/portfolio/portfolio-img-3.jpg', title: 'Studio Pilates Flow', tags: ['Site institucional', 'SEO'], url: '#portfolio' },
+  { image: '/assets/images/portfolio/portfolio-img-4.jpg', title: 'Doce Encanto Confeitaria', tags: ['Landing page', 'Design digital'], url: '#portfolio' },
+  { image: '/assets/images/portfolio/portfolio-img-5.jpg', title: 'Arquiteta Renata Lima', tags: ['Portfólio', 'Web design'], url: '#portfolio' },
+  { image: '/assets/images/portfolio/portfolio-img-6.jpg', title: 'Revista Conecta', tags: ['Editorial digital', 'Desenvolvimento web'], url: '#portfolio' },
 ];
 
 export default function FeaturedProjects() {
@@ -77,8 +78,7 @@ export default function FeaturedProjects() {
                     <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                       data-aos-duration="1000">
                       <h2 className="mb-0">Projetos em destaque</h2>
-                      <p className="fs-5 mb-0">Um pouco do que já criei para psicólogos, médicos, clínicas, advogados e negócios locais: sites e
-                        landing pages que passam confiança e trazem novos clientes.</p>
+                      <p className="fs-5 mb-0">Um pouco do que já criei: sites e landing pages que passam confiança e trazem novos clientes.</p>
                     </div>
                   </div>
                 </div>
@@ -93,7 +93,8 @@ export default function FeaturedProjects() {
                     <div className="portfolio-img position-relative overflow-hidden">
                       <img src={project.image} alt={project.title} className="img-fluid" />
                       <div className="portfolio-overlay">
-                        <a href="#portfolio"
+                        <a href={project.url} target={project.url.startsWith('http') ? '_blank' : undefined} rel="noreferrer"
+                          aria-label={`Ver projeto ${project.title}`}
                           className="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
                           <iconify-icon icon="lucide:arrow-up-right" className="fs-8 text-dark"></iconify-icon>
                         </a>

@@ -16904,3 +16904,11 @@ ul {
 .header .header-menu .header-link:focus-visible {
   color: #5B2EA6;
 }
+
+/* Portfolio cards: same aspect ratio for every image */
+.projects-item .portfolio-img > img {
+  width: 100%;
+  aspect-ratio: 527 / 343;
+  object-fit: cover;
+  object-position: top;
+}
