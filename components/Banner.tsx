@@ -11,9 +11,9 @@ export default function Banner() {
             <div className="col-xl-8">
               <div className="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
-                <CatMotion />
+                <CatMotion size={80} />
                 <p className="mb-0 text-white hero-lead">Crio <span
-                    className="text-primary">sites e landing pages</span> para profissionais e empresas<br className="d-none d-lg-inline" />
+                    className="text-primary">sites e landing pages</span> para profissionais e empresas<br className="d-none d-lg-inline" />{' '}
                   que querem transformar visitantes em clientes.</p>
               </div>
             </div>

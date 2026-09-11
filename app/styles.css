@@ -16426,12 +16426,6 @@ textarea.form-control-lg {
 .header.fixed-header .light-dark {
   color: var(--bs-dark) !important;
 }
-.header.fixed-header .toggle-menu {
-  background-color: var(--bs-dark) !important;
-}
-.header.fixed-header .toggle-menu .menu-icon {
-  color: var(--bs-white) !important;
-}
 .header .logo .logo-dark {
   display: none;
 }
@@ -16859,57 +16853,38 @@ ul {
   color: var(--bs-dark) !important;
 }
 
-/* Cat motion (hero) */
+/* Cat motion (hero): cat nudges the text beside it */
 .cat-motion {
   overflow: visible;
 }
-.cat-motion .cat-head {
-  transform-origin: 32px 40px;
-  animation: cat-head 12s ease-in-out infinite;
+.cat-motion .cat-shape {
+  transform-origin: 50px 92px;
+  transform-box: view-box;
+  animation: cat-play 8s ease-in-out infinite;
 }
-.cat-motion .cat-pupil {
-  animation: cat-look 12s ease-in-out infinite;
+.hero-lead {
+  animation: text-nudge 8s ease-in-out infinite;
 }
-.cat-motion .cat-eye {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: cat-blink 12s ease-in-out infinite;
+@keyframes cat-play {
+  0%, 30% { transform: rotate(0deg) translate(0, 0); }
+  36% { transform: rotate(-6deg) translate(-2px, 0); }
+  42% { transform: rotate(10deg) translate(6px, 0); }
+  47% { transform: rotate(4deg) translate(2px, 0); }
+  52% { transform: rotate(11deg) translate(7px, 0); }
+  58% { transform: rotate(0deg) translate(0, 0); }
+  70% { transform: rotate(-4deg) translate(0, 0); }
+  80%, 100% { transform: rotate(0deg) translate(0, 0); }
 }
-.cat-motion .cat-ear-left {
-  transform-origin: 20px 26px;
-  animation: cat-ear 12s ease-in-out infinite;
-}
-.cat-motion .cat-ear-right {
-  transform-origin: 44px 26px;
-  animation: cat-ear 12s ease-in-out infinite reverse;
-}
-@keyframes cat-look {
-  0%, 12% { transform: translate(0, 0); }
-  20%, 30% { transform: translate(-2.4px, 0.4px); }
-  38%, 48% { transform: translate(2.4px, 0.4px); }
-  56%, 60% { transform: translate(0.6px, 0); }
-  70%, 84% { transform: translate(0.4px, -3.2px); }
-  92%, 100% { transform: translate(0, 0); }
-}
-@keyframes cat-head {
-  0%, 60% { transform: rotate(0deg) translateY(0); }
-  72%, 84% { transform: rotate(-4deg) translateY(-1.5px); }
-  94%, 100% { transform: rotate(0deg) translateY(0); }
-}
-@keyframes cat-blink {
-  0%, 26%, 30%, 63%, 66%, 100% { transform: scaleY(1); }
-  28%, 64.5% { transform: scaleY(0.08); }
-}
-@keyframes cat-ear {
-  0%, 44%, 50%, 100% { transform: rotate(0deg); }
-  47% { transform: rotate(-8deg); }
+@keyframes text-nudge {
+  0%, 42% { transform: translateX(0) rotate(0deg); }
+  45% { transform: translateX(8px) rotate(0.5deg); }
+  49% { transform: translateX(0) rotate(0deg); }
+  54% { transform: translateX(8px) rotate(0.5deg); }
+  60%, 100% { transform: translateX(0) rotate(0deg); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .cat-motion .cat-head,
-  .cat-motion .cat-pupil,
-  .cat-motion .cat-eye,
-  .cat-motion .cat-ear-left,
-  .cat-motion .cat-ear-right {
+  .cat-motion .cat-shape,
+  .hero-lead {
     animation: none;
   }
 }
@@ -16923,4 +16898,19 @@ ul {
   .hero-lead {
     font-size: 22px;
   }
+}
+
+/* Menu toggle stays white in every state (no dark palette) */
+.header .toggle-menu,
+.header .toggle-menu:hover,
+.header .toggle-menu:focus,
+.header .toggle-menu:active,
+.header .toggle-menu.show,
+.header .btn-group.show .toggle-menu {
+  background-color: var(--bs-white) !important;
+  border-color: var(--bs-white) !important;
+  box-shadow: none !important;
+}
+.header .toggle-menu .menu-icon {
+  color: var(--bs-dark) !important;
 }

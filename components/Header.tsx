@@ -55,11 +55,11 @@ export default function Header() {
                     </li>
                     </ul>
                     <a href="https://wa.me/5518997056598" target="_blank" rel="noreferrer"
-                    className="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-100 hstack justify-content-center">Pedir orçamento</a>
+                    className="btn fs-6 px-3 py-2 w-100 hstack justify-content-center">Pedir orçamento</a>
                   </div>
-                  <div>
-                    <a className="text-dark" href="tel:+5518997056598">(18) 99705-6598</a>
-                    <a className="fs-8 text-dark fw-bold" href="mailto:mariafernanda2109@gmail.com">mariafernanda2109@gmail.com</a>
+                  <div className="d-flex flex-column gap-1">
+                    <a className="text-dark fs-5 text-nowrap" href="tel:+5518997056598">(18) 99705-6598</a>
+                    <a className="text-dark fs-5 fw-bold text-nowrap" href="mailto:mariafernanda2109@gmail.com">mariafernanda2109@gmail.com</a>
                   </div>
                 </div>
               </ul>
