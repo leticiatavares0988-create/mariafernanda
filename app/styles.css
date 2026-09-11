@@ -17000,3 +17000,13 @@ ul {
 .footer .footer-text {
   font-size: 14px;
 }
+
+/* Smooth anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
