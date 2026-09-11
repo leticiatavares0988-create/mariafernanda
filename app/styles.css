@@ -16853,3 +16853,8 @@ ul {
   background-color: var(--bs-secondary);
   border-color: var(--bs-secondary);
 }
+
+/* Fixed header is purple, so the logo dot switches to dark */
+.header.fixed-header .logo-text span {
+  color: var(--bs-dark) !important;
+}
