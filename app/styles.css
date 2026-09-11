@@ -16638,7 +16638,11 @@ textarea.form-control-lg {
 }
 .services-tab .nav-tabs .nav-item .nav-link.active {
   background-color: transparent;
-  color: var(--bs-primary);
+  background-image: linear-gradient(90deg, #C4A5FF 0%, #A78BFA 35%, #8B5CF6 70%, #6D3BC7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .sign-in {

@@ -18,7 +18,7 @@ export default function Services() {
                 <div className="col-xxl-8">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0 text-white">O que eu <span className="text-gradient">faço</span></h2>
+                    <h2 className="mb-0 text-white">O que eu faço</h2>
                     <p className="fs-5 mb-0 text-white text-opacity-70">Do primeiro rascunho à publicação, cuido de cada etapa para o seu site ficar bonito, rápido e
                       pronto para vender.</p>
                   </div>
