@@ -16934,3 +16934,38 @@ ul {
   width: 44px;
   height: 44px;
 }
+
+/* Menu toggle: two bars that turn into an X when open */
+.menu-bars {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 14px;
+}
+.menu-bars span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--bs-dark);
+  transition: transform 0.3s ease, top 0.3s ease;
+}
+.menu-bars span:first-child {
+  top: 2px;
+}
+.menu-bars span:last-child {
+  top: 10px;
+}
+.toggle-menu.show .menu-bars span,
+.toggle-menu[aria-expanded="true"] .menu-bars span {
+  top: 6px;
+}
+.toggle-menu.show .menu-bars span:first-child,
+.toggle-menu[aria-expanded="true"] .menu-bars span:first-child {
+  transform: rotate(45deg);
+}
+.toggle-menu.show .menu-bars span:last-child,
+.toggle-menu[aria-expanded="true"] .menu-bars span:last-child {
+  transform: rotate(-45deg);
+}

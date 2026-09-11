@@ -12,14 +12,13 @@ export default function Header() {
             <div className="btn-group">
               <button
                 className="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
-                type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-                <iconify-icon icon="solar:hamburger-menu-line-duotone" className="menu-icon fs-8 text-dark"></iconify-icon>
+                type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" aria-label="Abrir menu">
+                <span className="menu-bars" aria-hidden="true"><span></span><span></span></span>
               </button>
               <ul className="dropdown-menu dropdown-menu-end p-4">
                 <div className="d-flex flex-column gap-6">
-                  <div className="hstack justify-content-between border-bottom pb-6">
+                  <div className="border-bottom pb-6">
                     <p className="mb-0 fs-5 text-dark">Menu</p>
-                    <button type="button" className="btn-close opacity-75" aria-label="Fechar"></button>
                   </div>
                   <div className="d-flex flex-column gap-3">
                     <ul className="header-menu list-unstyled mb-0 d-flex flex-column gap-2">
