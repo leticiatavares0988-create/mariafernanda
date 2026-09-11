@@ -13,9 +13,10 @@ export default function WhyChooseUs() {
                 <span className="badge text-bg-dark">Sobre</span>
               </div>
               <h2 className="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Por que trabalhar comigo</h2>
-              <p className="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Uno design e
-                estratégia para criar experiências digitais únicas, com atenção a cada detalhe e foco no
-                resultado do seu negócio.</p>
+              <p className="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Uno design e estratégia para criar<br className="d-none d-lg-inline" />{' '}
+                experiências digitais únicas,<br className="d-none d-lg-inline" />{' '}
+                com atenção a cada detalhe<br className="d-none d-lg-inline" />{' '}
+                e foco no resultado do seu negócio.</p>
             </div>
           </div>
           <div className="col-xl-9 col-xxl-8">
