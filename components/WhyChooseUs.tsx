@@ -64,7 +64,7 @@ export default function WhyChooseUs() {
               <div className="col-lg-4 mb-7 mb-lg-0">
                 <div className="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                   <div className="position-relative">
-                    <img src="/assets/images/portfolio/isabella-de-luna.jpg" alt="Site da psicóloga Isabella de Luna" className="img-fluid w-100" />
+                    <img src="/assets/images/portfolio/andreia-eiras.jpg" alt="Site da fisioterapeuta Andréia Eiras" className="img-fluid w-100" />
                   </div>
 
                   <div className="card bg-dark">
