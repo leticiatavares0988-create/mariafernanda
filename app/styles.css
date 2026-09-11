@@ -17019,4 +17019,10 @@ html {
 /* Menu contacts */
 .header .menu-contact {
   font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.header .menu-contact:hover,
+.header .menu-contact:focus-visible {
+  color: #5B2EA6 !important;
 }
