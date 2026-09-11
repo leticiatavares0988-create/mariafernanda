@@ -36,9 +36,6 @@ export default function Services() {
                   <div className="tab-pane" id="two" role="tabpanel" aria-labelledby="two-tab" tabIndex={0}>
                     <img src="/assets/images/services/services-img-2.jpg" alt="Serviços" className="img-fluid" />
                   </div>
-                  <div className="tab-pane" id="three" role="tabpanel" aria-labelledby="three-tab" tabIndex={0}>
-                    <img src="/assets/images/services/services-img-3.jpg" alt="Serviços" className="img-fluid" />
-                  </div>
                   <div className="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab" tabIndex={0}>
                     <img src="/assets/images/services/services-img-4.jpg" alt="Serviços" className="img-fluid" />
                   </div>
@@ -78,23 +75,6 @@ export default function Services() {
                           <p className="text-white text-opacity-70 mb-0">
                             Sites completos para consultórios, clínicas e empresas apresentarem seus serviços com
                             profissionalismo, fáceis de navegar em qualquer dispositivo.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      className="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
-                      role="presentation">
-                      <div className="row w-100 align-items-center gx-3">
-                        <div className="col-lg-6 col-xxl-5">
-                          <button className="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
-                            id="three-tab" data-bs-toggle="tab" data-bs-target="#three" type="button" role="tab"
-                            aria-controls="three" aria-selected="false">Design de interfaces</button>
-                        </div>
-                        <div className="col-lg-6 col-xxl-7">
-                          <p className="text-white text-opacity-70 mb-0">
-                            Layouts com identidade própria, alinhados à sua marca, que passam confiança logo no primeiro
-                            acesso.
                           </p>
                         </div>
                       </div>
