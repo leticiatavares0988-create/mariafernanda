@@ -17026,3 +17026,12 @@ html {
 .header .menu-contact:focus-visible {
   color: #5B2EA6 !important;
 }
+
+/* Gradient keyword in headings */
+.text-gradient {
+  background: linear-gradient(90deg, #B388FF 0%, #8B5CF6 45%, #D66DFF 75%, #F472B6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}

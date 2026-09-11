@@ -18,7 +18,7 @@ export default function Faq() {
                 <div className="col-xxl-9">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0">Perguntas frequentes</h2>
+                    <h2 className="mb-0">Perguntas <span className="text-gradient">frequentes</span></h2>
                     <p className="fs-5 mb-0 text-opacity-70">Respostas para as dúvidas mais comuns de profissionais e empresas que querem ter presença online
                       de verdade.</p>
                   </div>

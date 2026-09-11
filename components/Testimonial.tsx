@@ -18,7 +18,7 @@ export default function Testimonial() {
                 <div className="col-xxl-8">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0">O que dizem meus clientes</h2>
+                    <h2 className="mb-0">O que dizem <span className="text-gradient">meus clientes</span></h2>
                     <p className="fs-5 mb-0 text-opacity-70">Experiências reais de quem já teve um site ou uma landing page criado por mim.</p>
                   </div>
                 </div>

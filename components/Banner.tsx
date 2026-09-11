@@ -13,7 +13,7 @@ export default function Banner() {
                 data-aos-duration="1000">
                 <CatVideo size={86} />
                 <p className="mb-0 text-white hero-lead">Crio <span
-                    className="text-primary">sites e landing pages</span> para profissionais e empresas<br className="d-none d-lg-inline" />{' '}
+                    className="text-gradient">sites e landing pages</span> para profissionais e empresas<br className="d-none d-lg-inline" />{' '}
                   que querem transformar visitantes em clientes.</p>
               </div>
             </div>

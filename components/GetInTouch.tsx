@@ -18,7 +18,7 @@ export default function GetInTouch() {
                 <div className="col-xxl-8">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0">Vamos conversar</h2>
+                    <h2 className="mb-0">Vamos <span className="text-gradient">conversar</span></h2>
                   </div>
                 </div>
               </div>

@@ -82,7 +82,7 @@ export default function FeaturedProjects() {
                   <div className="col-xxl-8">
                     <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                       data-aos-duration="1000">
-                      <h2 className="mb-0">Projetos em destaque</h2>
+                      <h2 className="mb-0">Projetos em <span className="text-gradient">destaque</span></h2>
                       <p className="fs-5 mb-0">Um pouco do que já criei: sites e landing pages que passam confiança e trazem novos clientes.</p>
                     </div>
                   </div>

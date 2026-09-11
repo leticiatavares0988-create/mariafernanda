@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
                 <hr className="border-line" />
                 <span className="badge text-bg-dark">Sobre</span>
               </div>
-              <h2 className="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Por que trabalhar comigo</h2>
+              <h2 className="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Por que trabalhar <span className="text-gradient">comigo</span></h2>
               <p className="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Uno design e estratégia para criar<br className="d-none d-lg-inline" />{' '}
                 experiências digitais únicas,<br className="d-none d-lg-inline" />{' '}
                 com atenção a cada detalhe<br className="d-none d-lg-inline" />{' '}
