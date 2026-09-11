@@ -17033,7 +17033,7 @@ h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4
 }
 .text-gradient {
   font-weight: 700;
-  background: linear-gradient(90deg, #B388FF 0%, #8B5CF6 45%, #D66DFF 75%, #F472B6 100%);
+  background: linear-gradient(90deg, #C4A5FF 0%, #A78BFA 35%, #8B5CF6 70%, #6D3BC7 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
