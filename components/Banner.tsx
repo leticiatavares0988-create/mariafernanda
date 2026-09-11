@@ -1,11 +1,10 @@
 import CatMotion from '@/components/CatMotion';
+import HeroVideo from '@/components/HeroVideo';
 
 export default function Banner() {
   return (
     <section className="banner-section position-relative d-flex align-items-end min-vh-100">
-      <video className="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoPlay muted loop playsInline>
-        <source src="/assets/images/backgrounds/hero-video.mp4" type="video/mp4" />
-      </video>
+      <HeroVideo />
       <div className="container">
         <div className="d-flex flex-column gap-4 pb-8 pb-lg-12 position-relative z-1">
           <div className="row align-items-center">
