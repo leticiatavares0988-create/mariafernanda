@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 
-export default function HeroVideo({ speed = 0.6 }: { speed?: number }) {
+export default function HeroVideo({ speed = 0.6, className }: { speed?: number; className?: string }) {
   const ref = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function HeroVideo({ speed = 0.6 }: { speed?: number }) {
   }, [speed]);
 
   return (
-    <video ref={ref} className="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoPlay muted loop playsInline>
+    <video ref={ref} className={`position-absolute top-0 start-0 w-100 h-100 object-fit-cover ${className ?? ''}`} autoPlay muted loop playsInline>
       <source src="/assets/images/backgrounds/hero-video.mp4" type="video/mp4" />
     </video>
   );

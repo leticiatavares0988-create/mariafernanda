@@ -1,3 +1,5 @@
+import HeroVideo from '@/components/HeroVideo';
+
 export default function WhyChooseUs() {
   return (
     <section id="about" className="why-choose-us py-5 py-lg-11 py-xl-12">
@@ -22,41 +24,39 @@ export default function WhyChooseUs() {
           <div className="col-xl-9 col-xxl-8">
             <div className="row">
               <div className="col-lg-4 mb-7 mb-lg-0">
-                <div className="card position-relative overflow-hidden bg-primary h-100" data-aos="fade-up"
+                <div className="card position-relative overflow-hidden bg-dark h-100 video-card" data-aos="fade-up"
                   data-aos-delay="100" data-aos-duration="1000">
-                  <div className="card-body d-flex flex-column justify-content-between">
+                  <HeroVideo speed={0.6} className="video-card-bg" />
+                  <div className="card-body d-flex flex-column justify-content-between position-relative z-1">
                     <div className="d-flex flex-column gap-3 position-relative z-1">
                       <ul className="list-unstyled mb-0 hstack gap-1">
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
-                              className="fs-6 text-dark"></iconify-icon></a></li>
+                              className="fs-6 text-white"></iconify-icon></a></li>
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
-                              className="fs-6 text-dark"></iconify-icon></a></li>
+                              className="fs-6 text-white"></iconify-icon></a></li>
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
-                              className="fs-6 text-dark"></iconify-icon></a></li>
+                              className="fs-6 text-white"></iconify-icon></a></li>
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
-                              className="fs-6 text-dark"></iconify-icon></a></li>
+                              className="fs-6 text-white"></iconify-icon></a></li>
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
-                              className="fs-6 text-dark"></iconify-icon></a></li>
+                              className="fs-6 text-white"></iconify-icon></a></li>
                       </ul>
-                      <p className="mb-0 fs-6 text-dark">O site ficou muito além do que eu imaginava. Já na primeira semana começaram a chegar agendamentos.
+                      <p className="mb-0 fs-6 text-white">O site ficou muito além do que eu imaginava. Já na primeira semana começaram a chegar agendamentos.
                       </p>
                     </div>
                     <div className="position-relative z-1">
-                      <div className="pb-6 border-bottom">
-                        <h2 className="mb-0">100%</h2>
-                        <p className="mb-0">Clientes satisfeitos</p>
+                      <div className="pb-6 border-bottom border-white border-opacity-25">
+                        <h2 className="mb-0 text-white">100%</h2>
+                        <p className="mb-0 text-white text-opacity-70">Clientes satisfeitos</p>
                       </div>
                       <div className="hstack gap-6 pt-6">
                         <img src="/assets/images/profile/avatar-1.png" alt=""
                           className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="64" height="64" />
                         <div>
-                          <h5 className="mb-0">Andréia Eiras</h5>
-                          <p className="mb-0">Fisioterapeuta</p>
+                          <h5 className="mb-0 text-white">Andréia Eiras</h5>
+                          <p className="mb-0 text-white text-opacity-70">Fisioterapeuta</p>
                         </div>
                       </div>
-                    </div>
-                    <div className="position-absolute bottom-0 end-0">
-                      <img src="/assets/images/backgrounds/customer-satisfaction-bg.svg" alt="" className="img-fluid" />
                     </div>
                   </div>
                 </div>

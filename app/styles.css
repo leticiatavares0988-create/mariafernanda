@@ -16916,3 +16916,15 @@ ul {
   object-fit: cover;
   object-position: top;
 }
+
+/* About: testimonial card with the hero video as background */
+.video-card .video-card-bg {
+  z-index: 0;
+}
+.video-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 10, 40, 0.35);
+  z-index: 0;
+}
