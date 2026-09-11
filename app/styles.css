@@ -16893,3 +16893,14 @@ ul {
   background-color: #000000;
   color: var(--bs-white);
 }
+
+/* Menu links: dark text, purple on hover */
+.header .header-menu .header-link {
+  color: var(--bs-dark);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.header .header-menu .header-link:hover,
+.header .header-menu .header-link:focus-visible {
+  color: #5B2EA6;
+}

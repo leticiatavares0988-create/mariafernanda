@@ -25,33 +25,23 @@ export default function Header() {
                     <ul className="header-menu list-unstyled mb-0 d-flex flex-column gap-2">
                     <li className="header-item">
                       <a href="/" aria-current="page"
-                        className="header-link active hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          className="img-fluid animate-spin" />Início</a>
+                        className="header-link active hstack gap-2 fs-7 fw-bold">Início</a>
                     </li>
                     <li className="header-item">
                       <a href="#about"
-                        className="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          className="img-fluid animate-spin" />Sobre</a>
+                        className="header-link hstack gap-2 fs-7 fw-bold">Sobre</a>
                     </li>
                     <li className="header-item">
                       <a href="#portfolio"
-                        className="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          className="img-fluid animate-spin" />Projetos</a>
+                        className="header-link hstack gap-2 fs-7 fw-bold">Projetos</a>
                     </li>
                     <li className="header-item">
                       <a href="#services"
-                        className="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          className="img-fluid animate-spin" />Serviços</a>
+                        className="header-link hstack gap-2 fs-7 fw-bold">Serviços</a>
                     </li>
                     <li className="header-item">
                       <a href="#contact"
-                        className="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          className="img-fluid animate-spin" />Contato</a>
+                        className="header-link hstack gap-2 fs-7 fw-bold">Contato</a>
                     </li>
                     </ul>
                     <a href="https://wa.me/5518997056598" target="_blank" rel="noreferrer"
