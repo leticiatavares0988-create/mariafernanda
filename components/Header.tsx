@@ -1,7 +1,12 @@
+import HeroVideo from '@/components/HeroVideo';
+
 export default function Header() {
   return (
-    <header className="header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
-      <div className="container">
+    <header className="header border-4 border-primary border-top position-fixed start-0 top-0 w-100 overflow-hidden">
+      <div className="header-glass" aria-hidden="true">
+        <HeroVideo speed={0.6} className="header-glass-video" />
+      </div>
+      <div className="container position-relative z-1">
         <div className="header-wrapper d-flex align-items-center justify-content-between">
           <div className="logo">
             <a href="/" className="logo-white logo-text fw-bold text-white text-decoration-none">Maria Fernanda<span className="text-primary">.</span></a>

@@ -16417,13 +16417,12 @@ textarea.form-control-lg {
 }
 .header.fixed-header {
   padding: 20px 0;
-  background-color: var(--bs-primary);
 }
 .header.fixed-header .logo .logo-dark {
-  display: block;
+  display: none;
 }
 .header.fixed-header .logo .logo-white {
-  display: none;
+  display: block;
 }
 .header.fixed-header .light-dark {
   color: var(--bs-dark) !important;
@@ -16855,10 +16854,6 @@ ul {
   border-color: var(--bs-secondary);
 }
 
-/* Fixed header is purple, so the logo dot switches to dark */
-.header.fixed-header .logo-text span {
-  color: var(--bs-dark) !important;
-}
 
 /* Hero lead text */
 .hero-lead {
@@ -16968,4 +16963,34 @@ ul {
 .toggle-menu.show .menu-bars span:last-child,
 .toggle-menu[aria-expanded="true"] .menu-bars span:last-child {
   transform: rotate(-45deg);
+}
+
+/* Fixed header: hero video behind a glass layer */
+.header-glass {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+.header-glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(30, 14, 60, 0.55), rgba(30, 14, 60, 0.35));
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+.header-glass-video {
+  filter: blur(6px);
+  transform: scale(1.1);
+}
+.header.fixed-header .header-glass {
+  opacity: 1;
+}
+.header.fixed-header {
+  box-shadow: 0 8px 32px rgba(20, 10, 40, 0.25);
 }
