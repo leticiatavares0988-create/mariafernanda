@@ -57,7 +57,7 @@ export default function StatsFacts() {
         </div>
       </div>
       <div className="position-absolute bottom-0 start-0" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
-        <img src="/assets/images/backgrounds/stats-facts-bg.svg" alt="" className="img-fluid" />
+        <img src="/assets/images/backgrounds/paw-outline.svg" alt="" className="img-fluid" />
       </div>
     </section>
   );
