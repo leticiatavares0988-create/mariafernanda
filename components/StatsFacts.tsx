@@ -9,7 +9,7 @@ export default function StatsFacts() {
               <span
                 className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">01</span>
               <hr className="border-line" />
-              <span className="badge text-bg-dark">Stats & facts</span>
+              <span className="badge text-bg-dark">Números</span>
             </div>
           </div>
           <div className="col-xl-8 col-xxl-7">
@@ -18,9 +18,9 @@ export default function StatsFacts() {
                 <div className="col-xxl-8">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0">High quality web design solutions you can trust.</h2>
-                    <p className="fs-5 mb-0">When selecting a web design agency, it's essential to consider its reputation,
-                      experience, and the specific needs of your project.</p>
+                    <h2 className="mb-0">Sites bem feitos, pensados para vender.</h2>
+                    <p className="fs-5 mb-0">Na hora de escolher quem vai criar o seu site, vale olhar experiência, portfólio e o que o seu
+                      projeto realmente precisa. Aqui você encontra os três.</p>
                   </div>
                 </div>
               </div>
@@ -28,27 +28,27 @@ export default function StatsFacts() {
                 <div className="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div className="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="200"
                     data-aos-duration="1000">
-                    <h2 className="mb-0 fs-14"><span className="count" data-target="40">40</span>K+</h2>
-                    <p className="mb-0">People who have launched their websites</p>
+                    <h2 className="mb-0 fs-14"><span className="count" data-target="50">50</span>+</h2>
+                    <p className="mb-0">Sites e landing pages entregues</p>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div className="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="1000">
-                    <h2 className="mb-0 fs-14"><span className="count" data-target="238">238</span>+</h2>
-                    <p className="mb-0">Experienced professionals ready to assist</p>
+                    <h2 className="mb-0 fs-14"><span className="count" data-target="5">5</span>+</h2>
+                    <p className="mb-0">Anos criando para a web</p>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div className="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="400"
                     data-aos-duration="1000">
-                    <h2 className="mb-0 fs-14"><span className="count" data-target="3">3</span>M+</h2>
-                    <p className="mb-0">Support through messages and live consultations</p>
+                    <h2 className="mb-0 fs-14"><span className="count" data-target="98">98</span>%</h2>
+                    <p className="mb-0">Clientes satisfeitos com o resultado</p>
                   </div>
                 </div>
               </div>
               <a href="#about" className="btn" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                <span className="btn-text">Who we are</span>
+                <span className="btn-text">Quem sou eu</span>
                 <iconify-icon icon="lucide:arrow-up-right"
                   className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
               </a>

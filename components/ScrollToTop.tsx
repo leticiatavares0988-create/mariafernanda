@@ -17,7 +17,7 @@ export default function ScrollToTop() {
   return (
     <div className="get-template hstack gap-2">
       <button className="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
-        id="scrollToTopBtn" type="button" aria-label="Scroll to top" onClick={scrollToTop}
+        id="scrollToTopBtn" type="button" aria-label="Voltar ao topo" onClick={scrollToTop}
         style={{ display: visible ? 'flex' : 'none' }}>
         <iconify-icon icon="lucide:arrow-up" className="fs-7 text-dark"></iconify-icon>
       </button>

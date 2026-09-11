@@ -10,13 +10,12 @@ export default function WhyChooseUs() {
                 <span
                   className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">04</span>
                 <hr className="border-line" />
-                <span className="badge text-bg-dark">About us</span>
+                <span className="badge text-bg-dark">Sobre</span>
               </div>
-              <h2 className="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Why choose us</h2>
-              <p className="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">We blend
-                creativity with strategy to craft unique digital experiences that make an
-                impact.
-                With a focus on innovation, attention to details.</p>
+              <h2 className="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Por que trabalhar comigo</h2>
+              <p className="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Uno design e
+                estratégia para criar experiências digitais únicas, com atenção a cada detalhe e foco no
+                resultado do seu negócio.</p>
             </div>
           </div>
           <div className="col-xl-9 col-xxl-8">
@@ -38,20 +37,20 @@ export default function WhyChooseUs() {
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-line-duotone"
                               className="fs-6 text-dark"></iconify-icon></a></li>
                       </ul>
-                      <p className="mb-0 fs-6 text-dark">The team exceeded our expectations with a stunning brand identity.
+                      <p className="mb-0 fs-6 text-dark">O site ficou muito além do que eu imaginava, e as vendas subiram já no primeiro mês.
                       </p>
                     </div>
                     <div className="position-relative z-1">
                       <div className="pb-6 border-bottom">
-                        <h2 className="mb-0">98.6%</h2>
-                        <p className="mb-0">Customer satisfaction</p>
+                        <h2 className="mb-0">98%</h2>
+                        <p className="mb-0">Clientes satisfeitos</p>
                       </div>
                       <div className="hstack gap-6 pt-6">
                         <img src="/assets/images/profile/avatar-1.png" alt=""
                           className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="64" height="64" />
                         <div>
-                          <h5 className="mb-0">Wade Warren</h5>
-                          <p className="mb-0">Bank of America</p>
+                          <h5 className="mb-0">Juliana Martins</h5>
+                          <p className="mb-0">Doce Encanto Confeitaria</p>
                         </div>
                       </div>
                     </div>
@@ -70,8 +69,8 @@ export default function WhyChooseUs() {
                   <div className="card bg-dark">
                     <div className="card-body d-flex flex-column gap-7">
                       <div>
-                        <h2 className="mb-0 text-white">500+</h2>
-                        <p className="mb-0 text-white text-opacity-70">Successful projects completed</p>
+                        <h2 className="mb-0 text-white">50+</h2>
+                        <p className="mb-0 text-white text-opacity-70">Projetos entregues com sucesso</p>
                       </div>
                       <ul className="d-flex align-items-center mb-0">
                         <li>
@@ -110,15 +109,13 @@ export default function WhyChooseUs() {
                     className="border rounded-circle round-490 d-block position-absolute top-0 start-50 translate-middle"></span>
                   <div className="card-body d-flex flex-column justify-content-between">
                     <div>
-                      <h2 className="mb-0">238+</h2>
-                      <p className="mb-0 text-dark">Brands served worldwide</p>
+                      <h2 className="mb-0">30+</h2>
+                      <p className="mb-0 text-dark">Empresas atendidas em todo o Brasil</p>
                     </div>
                     <div className="d-flex flex-column gap-3">
-                      <a href="/" className="logo-dark">
-                        <img src="/assets/images/logos/logo-dark.svg" alt="logo" className="img-fluid" />
-                      </a>
-                      <p className="mb-0 fs-5 text-dark">Our global reach allows us to create unique, culturally relevant
-                        designs for businesses across different industries.</p>
+                      <a href="/" className="logo-dark logo-text fw-bold text-dark text-decoration-none">Maria Fernanda<span className="text-primary">.</span></a>
+                      <p className="mb-0 fs-5 text-dark">Trabalho de forma remota com clientes de várias regiões, criando sites que fazem
+                        sentido para cada tipo de negócio.</p>
                     </div>
                   </div>
                   <span

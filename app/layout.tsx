@@ -5,14 +5,14 @@ import './styles.css';
 import ClientInit from '@/components/ClientInit';
 
 export const metadata: Metadata = {
-  title: 'Studiova',
-  description: 'We create high-performing digital designs that elevate brands and enhance conversions.',
+  title: 'Maria Fernanda | Web Designer',
+  description: 'Sites e landing pages que transformam visitantes em clientes. Web design com foco em resultado.',
   icons: { icon: '/assets/images/logos/favicon.svg' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>
         {children}
         <ClientInit />

@@ -3,12 +3,12 @@
 import { useEffect, useRef } from 'react';
 
 const projects = [
-  { image: '/assets/images/portfolio/portfolio-img-1.jpg', title: 'Snapclear', tags: ['UX Strategy', 'UI Design'] },
-  { image: '/assets/images/portfolio/portfolio-img-2.jpg', title: 'Amber Bottle', tags: ['Web development', 'Digital design'] },
-  { image: '/assets/images/portfolio/portfolio-img-3.jpg', title: 'Pixelforge', tags: ['UI/UX design', 'Web development'] },
-  { image: '/assets/images/portfolio/portfolio-img-4.jpg', title: 'BioTrack LIMS', tags: ['Brand identity', 'Digital design'] },
-  { image: '/assets/images/portfolio/portfolio-img-5.jpg', title: 'Amber Bottle', tags: ['Photography', 'Studio'] },
-  { image: '/assets/images/portfolio/portfolio-img-6.jpg', title: 'Digital Magazine', tags: ['Digital design', 'Web development'] },
+  { image: '/assets/images/portfolio/portfolio-img-1.jpg', title: 'Clínica Vida Leve', tags: ['Landing page', 'Identidade visual'] },
+  { image: '/assets/images/portfolio/portfolio-img-2.jpg', title: 'Loja Bem Casa', tags: ['E-commerce', 'UI Design'] },
+  { image: '/assets/images/portfolio/portfolio-img-3.jpg', title: 'Studio Pilates Flow', tags: ['Site institucional', 'SEO'] },
+  { image: '/assets/images/portfolio/portfolio-img-4.jpg', title: 'Doce Encanto Confeitaria', tags: ['Landing page', 'Design digital'] },
+  { image: '/assets/images/portfolio/portfolio-img-5.jpg', title: 'Arquiteta Renata Lima', tags: ['Portfólio', 'Web design'] },
+  { image: '/assets/images/portfolio/portfolio-img-6.jpg', title: 'Revista Conecta', tags: ['Editorial digital', 'Desenvolvimento web'] },
 ];
 
 export default function FeaturedProjects() {
@@ -68,7 +68,7 @@ export default function FeaturedProjects() {
                   <span
                     className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">02</span>
                   <hr className="border-line" />
-                  <span className="badge text-bg-dark">Portfolio</span>
+                  <span className="badge text-bg-dark">Portfólio</span>
                 </div>
               </div>
               <div className="col-xl-8 col-xxl-7">
@@ -76,9 +76,9 @@ export default function FeaturedProjects() {
                   <div className="col-xxl-8">
                     <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                       data-aos-duration="1000">
-                      <h2 className="mb-0">Featured projects</h2>
-                      <p className="fs-5 mb-0">A glimpse into our creativity—exploring innovative designs, successful
-                        collaborations, and transformative digital experiences.</p>
+                      <h2 className="mb-0">Projetos em destaque</h2>
+                      <p className="fs-5 mb-0">Um pouco do que já criei: sites e landing pages pensados para cada marca, com foco em
+                        resultado.</p>
                     </div>
                   </div>
                 </div>

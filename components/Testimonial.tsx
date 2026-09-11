@@ -10,7 +10,7 @@ export default function Testimonial() {
                 <span
                   className="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">05</span>
                 <hr className="border-line bg-white" />
-                <span className="badge text-bg-dark">Testimonial</span>
+                <span className="badge text-bg-dark">Depoimentos</span>
               </div>
             </div>
             <div className="col-xl-8 col-xxl-7">
@@ -18,9 +18,8 @@ export default function Testimonial() {
                 <div className="col-xxl-8">
                   <div className="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 className="mb-0">Stories from clients</h2>
-                    <p className="fs-5 mb-0 text-opacity-70">Real experiences, genuine feedback—discover how our creative
-                      solutions have transformed brands and elevated businesses.</p>
+                    <h2 className="mb-0">O que dizem meus clientes</h2>
+                    <p className="fs-5 mb-0 text-opacity-70">Experiências reais de quem já teve um site ou uma landing page criado por mim.</p>
                   </div>
                 </div>
               </div>
@@ -31,15 +30,15 @@ export default function Testimonial() {
               <div className="card bg-primary w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div className="d-flex flex-column gap-4">
-                    <p className="mb-0">Hear from them</p>
-                    <h4 className="mb-0">Our website redesign was flawless. They understood our vision perfectly!</h4>
+                    <p className="mb-0">Depoimento</p>
+                    <h4 className="mb-0">O redesign do meu site ficou impecável. Ela entendeu exatamente o que eu queria.</h4>
                   </div>
                   <div className="hstack gap-3">
                     <img src="/assets/images/testimonial/testimonial-1.jpg" alt=""
                       className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
                     <div>
-                      <h5 className="mb-1 fw-normal">Albert Flores</h5>
-                      <p className="mb-0">MasterCard</p>
+                      <h5 className="mb-1 fw-normal">Carlos Mendes</h5>
+                      <p className="mb-0">Studio Pilates Flow</p>
                     </div>
                   </div>
                 </div>
@@ -49,9 +48,9 @@ export default function Testimonial() {
               <div className="card bg-dark w-100" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div className="d-flex flex-column gap-4">
-                    <p className="mb-0 text-white text-opacity-70">Hear from them</p>
-                    <h4 className="mb-0 text-white pe-xl-2">From concept to execution, they delivered outstanding results.
-                      Highly recommend their expertise!</h4>
+                    <p className="mb-0 text-white text-opacity-70">Depoimento</p>
+                    <h4 className="mb-0 text-white pe-xl-2">Do briefing à publicação, o processo foi tranquilo e o resultado superou as
+                      expectativas. Recomendo muito!</h4>
                     <div className="hstack gap-2">
                       <ul className="list-unstyled mb-0 hstack gap-1">
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
@@ -73,11 +72,11 @@ export default function Testimonial() {
                       <img src="/assets/images/testimonial/testimonial-2.jpg" alt=""
                         className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
                       <div>
-                        <h5 className="mb-1 fw-normal text-white">Robert Fox</h5>
-                        <p className="mb-0 text-white text-opacity-70">Mitsubishi</p>
+                        <h5 className="mb-1 fw-normal text-white">Roberta Alves</h5>
+                        <p className="mb-0 text-white text-opacity-70">Loja Bem Casa</p>
                       </div>
                     </div>
-                    <span><img src="/assets/images/testimonial/quete.svg" alt="quete"
+                    <span><img src="/assets/images/testimonial/quete.svg" alt=""
                         className="img-fluid flex-shrink-0" /></span>
                   </div>
                 </div>
@@ -87,15 +86,15 @@ export default function Testimonial() {
               <div className="card w-100" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div className="d-flex flex-column gap-4">
-                    <p className="mb-0">Hear from them</p>
-                    <h4 className="mb-0">Super smooth process with incredible results. highly recommend!</h4>
+                    <p className="mb-0">Depoimento</p>
+                    <h4 className="mb-0">Processo leve e resultado incrível. Minha landing page começou a gerar contatos na primeira semana.</h4>
                   </div>
                   <div className="hstack gap-3">
                     <img src="/assets/images/testimonial/testimonial-3.jpg" alt=""
                       className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60" />
                     <div>
-                      <h5 className="mb-1 fw-normal">Jenny Wilson</h5>
-                      <p className="mb-0">Pizza Hut</p>
+                      <h5 className="mb-1 fw-normal">Fernanda Souza</h5>
+                      <p className="mb-0">Clínica Vida Leve</p>
                     </div>
                   </div>
                 </div>
