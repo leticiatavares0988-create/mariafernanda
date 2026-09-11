@@ -73,30 +73,26 @@ export default function WhyChooseUs() {
                         <h2 className="mb-0 text-white">+2</h2>
                         <p className="mb-0 text-white text-opacity-70">Anos criando sites e landing pages</p>
                       </div>
-                      <ul className="d-flex align-items-center mb-0">
+                      <ul className="d-flex align-items-center mb-0 list-unstyled">
                         <li>
-                          <a href="#!">
-                            <img src="/assets/images/profile/user-1.jpg" width="44" height="44"
-                              className="rounded-circle border border-2 border-dark" alt="user-1" />
-                          </a>
+                          <span className="avatar-flat rounded-circle border border-2 border-dark hstack justify-content-center" style={{ backgroundColor: '#B388FF', color: '#1F2A2E' }}>
+                            <iconify-icon icon="solar:user-bold" className="fs-5"></iconify-icon>
+                          </span>
                         </li>
                         <li className="ms-n2">
-                          <a href="#!">
-                            <img src="/assets/images/profile/user-2.jpg" width="44" height="44"
-                              className="rounded-circle border border-2 border-dark" alt="user-2" />
-                          </a>
+                          <span className="avatar-flat rounded-circle border border-2 border-dark hstack justify-content-center" style={{ backgroundColor: '#7C4DFF', color: '#FFFFFF' }}>
+                            <iconify-icon icon="solar:user-heart-bold" className="fs-5"></iconify-icon>
+                          </span>
                         </li>
                         <li className="ms-n2">
-                          <a href="#!">
-                            <img src="/assets/images/profile/user-3.jpg" width="44" height="44"
-                              className="rounded-circle border border-2 border-dark" alt="user-3" />
-                          </a>
+                          <span className="avatar-flat rounded-circle border border-2 border-dark hstack justify-content-center" style={{ backgroundColor: '#5B2EA6', color: '#FFFFFF' }}>
+                            <iconify-icon icon="solar:user-speak-bold" className="fs-5"></iconify-icon>
+                          </span>
                         </li>
                         <li className="ms-n2">
-                          <a href="#!">
-                            <img src="/assets/images/profile/user-4.jpg" width="44" height="44"
-                              className="rounded-circle border border-2 border-dark" alt="user-4" />
-                          </a>
+                          <span className="avatar-flat rounded-circle border border-2 border-dark hstack justify-content-center" style={{ backgroundColor: '#E9DDFF', color: '#1F2A2E' }}>
+                            <iconify-icon icon="solar:user-check-bold" className="fs-5"></iconify-icon>
+                          </span>
                         </li>
                       </ul>
                     </div>
