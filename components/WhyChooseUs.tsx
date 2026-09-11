@@ -34,23 +34,23 @@ export default function WhyChooseUs() {
                               className="fs-6 text-dark"></iconify-icon></a></li>
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
                               className="fs-6 text-dark"></iconify-icon></a></li>
-                        <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-line-duotone"
+                        <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
                               className="fs-6 text-dark"></iconify-icon></a></li>
                       </ul>
-                      <p className="mb-0 fs-6 text-dark">O site ficou muito além do que eu imaginava, e as vendas subiram já no primeiro mês.
+                      <p className="mb-0 fs-6 text-dark">O site ficou muito além do que eu imaginava. Já na primeira semana começaram a chegar agendamentos.
                       </p>
                     </div>
                     <div className="position-relative z-1">
                       <div className="pb-6 border-bottom">
-                        <h2 className="mb-0">98%</h2>
+                        <h2 className="mb-0">100%</h2>
                         <p className="mb-0">Clientes satisfeitos</p>
                       </div>
                       <div className="hstack gap-6 pt-6">
                         <img src="/assets/images/profile/avatar-1.png" alt=""
                           className="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="64" height="64" />
                         <div>
-                          <h5 className="mb-0">Juliana Martins</h5>
-                          <p className="mb-0">Doce Encanto Confeitaria</p>
+                          <h5 className="mb-0">Andréia Eiras</h5>
+                          <p className="mb-0">Fisioterapeuta</p>
                         </div>
                       </div>
                     </div>
@@ -63,14 +63,14 @@ export default function WhyChooseUs() {
               <div className="col-lg-4 mb-7 mb-lg-0">
                 <div className="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                   <div className="position-relative">
-                    <img src="/assets/images/services/services-img-2.jpg" alt="" className="img-fluid w-100" />
+                    <img src="/assets/images/portfolio/isabella-de-luna.jpg" alt="Site da psicóloga Isabella de Luna" className="img-fluid w-100" />
                   </div>
 
                   <div className="card bg-dark">
                     <div className="card-body d-flex flex-column gap-7">
                       <div>
-                        <h2 className="mb-0 text-white">50+</h2>
-                        <p className="mb-0 text-white text-opacity-70">Projetos entregues com sucesso</p>
+                        <h2 className="mb-0 text-white">+2</h2>
+                        <p className="mb-0 text-white text-opacity-70">Anos criando sites e landing pages</p>
                       </div>
                       <ul className="d-flex align-items-center mb-0">
                         <li>
@@ -109,12 +109,12 @@ export default function WhyChooseUs() {
                     className="border rounded-circle round-490 d-block position-absolute top-0 start-50 translate-middle"></span>
                   <div className="card-body d-flex flex-column justify-content-between">
                     <div>
-                      <h2 className="mb-0">30+</h2>
-                      <p className="mb-0 text-dark">Empresas atendidas em todo o Brasil</p>
+                      <h2 className="mb-0">7 dias</h2>
+                      <p className="mb-0 text-dark">Prazo máximo da primeira versão de uma landing page</p>
                     </div>
                     <div className="d-flex flex-column gap-3">
                       <a href="/" className="logo-dark logo-text fw-bold text-dark text-decoration-none">Maria Fernanda<span className="text-primary">.</span></a>
-                      <p className="mb-0 fs-5 text-dark">Trabalho de forma remota com clientes de várias regiões, criando sites que fazem
+                      <p className="mb-0 fs-5 text-dark">Atendo de forma remota profissionais e empresas de todo o Brasil, criando sites que fazem
                         sentido para cada tipo de negócio.</p>
                     </div>
                   </div>
