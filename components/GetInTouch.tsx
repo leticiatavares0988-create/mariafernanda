@@ -37,7 +37,7 @@ export default function GetInTouch() {
                   <iconify-icon icon="lucide:arrow-up-right"
                     className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
                 </a>
-                <a href="mailto:mariafernanda2109@gmail.com" className="btn border border-dark border-opacity-25 bg-transparent">
+                <a href="mailto:mariafernanda2109@gmail.com" className="btn btn-ghost">
                   <span className="btn-text">Enviar e-mail</span>
                   <iconify-icon icon="lucide:mail"
                     className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>

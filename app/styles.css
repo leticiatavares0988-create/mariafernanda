@@ -16843,3 +16843,13 @@ ul {
     font-size: 2rem;
   }
 }
+
+/* Secondary CTA: white with border, same dark hover as .btn */
+.btn-ghost {
+  background-color: var(--bs-white);
+  border: 1px solid rgba(31, 42, 46, 0.25);
+}
+.btn-ghost:hover {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
