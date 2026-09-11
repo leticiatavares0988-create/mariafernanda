@@ -31,13 +31,13 @@ export default function Services() {
               <div className="col-xl-4">
                 <div className="tab-content" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                   <div className="tab-pane active" id="one" role="tabpanel" aria-labelledby="one-tab" tabIndex={0}>
-                    <img src="/assets/images/services/services-img-1.jpg" alt="Serviços" className="img-fluid" />
+                    <img src="/assets/images/portfolio/em-breve.svg" alt="Imagem em breve" className="img-fluid" />
                   </div>
                   <div className="tab-pane" id="two" role="tabpanel" aria-labelledby="two-tab" tabIndex={0}>
-                    <img src="/assets/images/services/services-img-2.jpg" alt="Serviços" className="img-fluid" />
+                    <img src="/assets/images/portfolio/em-breve.svg" alt="Imagem em breve" className="img-fluid" />
                   </div>
                   <div className="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab" tabIndex={0}>
-                    <img src="/assets/images/services/services-img-4.jpg" alt="Serviços" className="img-fluid" />
+                    <img src="/assets/images/portfolio/em-breve.svg" alt="Imagem em breve" className="img-fluid" />
                   </div>
                 </div>
               </div>
