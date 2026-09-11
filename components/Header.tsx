@@ -2,7 +2,7 @@ import HeroVideo from '@/components/HeroVideo';
 
 export default function Header() {
   return (
-    <header className="header border-4 border-primary border-top position-fixed start-0 top-0 w-100 overflow-hidden">
+    <header className="header position-fixed start-0 top-0 w-100 overflow-hidden">
       <div className="header-glass" aria-hidden="true">
         <HeroVideo speed={0.6} className="header-glass-video" />
       </div>
