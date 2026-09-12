@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 const projects = [
   { image: '/assets/images/portfolio/andreia-eiras.jpg', title: 'Andréia Eiras', tags: ['Landing page', 'Fisioterapia'], url: 'https://andreia-eiras.vercel.app' },
   { image: '/assets/images/portfolio/isabella-de-luna.jpg', title: 'Isabella de Luna', tags: ['Landing page', 'Psicologia'], url: 'https://isabelladelunapsicologa.vercel.app' },
-  { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
+  { image: '/assets/images/portfolio/mafer-petsitter.jpg', title: 'Mafer Petsitter', tags: ['Landing page', 'Pet care'], url: 'https://maferpetsitter.framer.website/' },
   { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
   { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
   { image: '/assets/images/portfolio/em-breve.svg', title: 'Em breve', tags: ['Novo projeto'], url: '#contact' },
