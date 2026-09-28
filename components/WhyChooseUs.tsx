@@ -69,7 +69,7 @@ export default function WhyChooseUs() {
                   <div className="card bg-dark">
                     <div className="card-body d-flex flex-column gap-7">
                       <div>
-                        <h3 className="mb-0 text-white">Do briefing ao site no ar</h3>
+                        <h3 className="mb-0 text-white">Do briefing<br />ao site no ar</h3>
                       </div>
                       <ul className="d-flex align-items-center mb-0 list-unstyled">
                         <li>
