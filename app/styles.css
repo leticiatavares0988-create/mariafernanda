@@ -17080,3 +17080,11 @@ h1:has(> .text-gradient), h2:has(> .text-gradient), h3:has(> .text-gradient), h4
   width: 64px;
   height: 64px;
 }
+
+/* Hero: ajuste do titulo no mobile */
+@media (max-width: 991.98px) {
+  .banner-section h1.fs-16 { font-size: 3.5rem !important; }
+}
+@media (max-width: 575.98px) {
+  .banner-section h1.fs-16 { font-size: 3rem !important; }
+}

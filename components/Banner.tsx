@@ -17,9 +17,9 @@ export default function Banner() {
               </div>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-between gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <div className="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-4 gap-lg-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             <h1 className="mb-0 fs-16 text-white lh-1">Maria Fernanda<span className="text-primary">.</span></h1>
-            <a href="#portfolio" className="p-1 ps-7 bg-primary rounded-pill" aria-label="Ver projetos">
+            <a href="#portfolio" className="p-1 ps-7 bg-primary rounded-pill align-self-end align-self-lg-auto flex-shrink-0" aria-label="Ver projetos">
               <span className="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center">
                 <iconify-icon icon="lucide:arrow-down" className="fs-8 text-dark"></iconify-icon>
               </span>
