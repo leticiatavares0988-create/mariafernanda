@@ -38,8 +38,8 @@ export default function Testimonial() {
                   <div className="hstack gap-3">
                     <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#B388FF', color: '#1F2A2E' }} aria-hidden="true"><iconify-icon icon="solar:user-bold" className="fs-6"></iconify-icon></span>
                     <div>
-                      <h5 className="mb-1 fw-normal text-white">Carlos Mendes</h5>
-                      <p className="mb-0 text-white text-opacity-70">Studio Pilates Flow</p>
+                      <h5 className="mb-1 fw-normal text-white">Lucy Gama</h5>
+                      <p className="mb-0 text-white text-opacity-70">Lucy Gama Ateliê</p>
                     </div>
                   </div>
                 </div>
@@ -63,18 +63,18 @@ export default function Testimonial() {
                               className="fs-6 text-white"></iconify-icon></a></li>
                         <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
                               className="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-line-duotone"
+                        <li><a className="hstack" href="#!"><iconify-icon icon="solar:star-bold"
                               className="fs-6 text-white"></iconify-icon></a></li>
                       </ul>
-                      <h6 className="mb-0 text-white fw-medium">4.0</h6>
+                      <h6 className="mb-0 text-white fw-medium">5.0</h6>
                     </div>
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="hstack gap-3">
                       <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#B388FF', color: '#1F2A2E' }} aria-hidden="true"><iconify-icon icon="solar:user-heart-bold" className="fs-6"></iconify-icon></span>
                       <div>
-                        <h5 className="mb-1 fw-normal text-white">Roberta Alves</h5>
-                        <p className="mb-0 text-white text-opacity-70">Loja Bem Casa</p>
+                        <h5 className="mb-1 fw-normal text-white">Ana Flávia</h5>
+                        <p className="mb-0 text-white text-opacity-70">Veterinária a domicílio</p>
                       </div>
                     </div>
                     <span><img src="/assets/images/testimonial/quete.svg" alt=""
@@ -88,12 +88,12 @@ export default function Testimonial() {
                 <div className="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div className="d-flex flex-column gap-4">
                     <p className="mb-0">Depoimento</p>
-                    <h4 className="mb-0">Processo leve e resultado incrível. Minha landing page começou a gerar contatos na primeira semana.</h4>
+                    <h4 className="mb-0">Processo leve do começo ao fim. O site ficou com a cara do meu trabalho e muito fácil de usar.</h4>
                   </div>
                   <div className="hstack gap-3">
                     <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#5B2EA6', color: '#FFFFFF' }} aria-hidden="true"><iconify-icon icon="solar:user-check-bold" className="fs-6"></iconify-icon></span>
                     <div>
-                      <h5 className="mb-1 fw-normal">Fernanda Souza</h5>
+                      <h5 className="mb-1 fw-normal">Mariana Santos</h5>
                       <p className="mb-0">Clínica Vida Leve</p>
                     </div>
                   </div>
