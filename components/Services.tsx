@@ -90,8 +90,8 @@ export default function Services() {
                         </div>
                         <div className="col-lg-6 col-xxl-7">
                           <p className="text-white text-opacity-70 mb-0">
-                            Ajustes de velocidade, estrutura e conteúdo para o seu site carregar rápido e aparecer melhor no
-                            Google.
+                            Todo site que eu entrego já sai otimizado para o Google, com estrutura, textos e velocidade
+                            preparados para aparecer nas buscas.
                           </p>
                         </div>
                       </div>
