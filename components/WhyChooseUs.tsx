@@ -70,7 +70,7 @@ export default function WhyChooseUs() {
                     <div className="card-body d-flex flex-column gap-7">
                       <div>
                         <h2 className="mb-0 text-white">+6</h2>
-                        <p className="mb-0 text-white text-opacity-70">Projetos entregues e no ar</p>
+                        <p className="mb-0 text-white text-opacity-70">Do briefing ao site no ar</p>
                       </div>
                       <ul className="d-flex align-items-center mb-0 list-unstyled">
                         <li>
