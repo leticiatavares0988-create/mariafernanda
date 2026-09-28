@@ -32,7 +32,7 @@ export default function GetInTouch() {
             </div>
             <div className="col-xl-8">
               <div className="d-flex flex-column flex-sm-row align-items-sm-center gap-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <a href="https://wa.me/5518997056598" target="_blank" rel="noreferrer" className="btn">
+                <a href="https://wa.me/5518997056598?text=Ol%C3%A1%2C%20Maria%20Fernanda%21%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20site%20ou%20landing%20page." target="_blank" rel="noreferrer" className="btn">
                   <span className="btn-text">Chamar no WhatsApp</span>
                   <iconify-icon icon="lucide:arrow-up-right"
                     className="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>

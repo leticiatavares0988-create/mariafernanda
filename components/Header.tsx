@@ -48,7 +48,7 @@ export default function Header() {
                         className="header-link hstack gap-2 fs-7 fw-bold">Contato</a>
                     </li>
                     </ul>
-                    <a href="https://wa.me/5518997056598" target="_blank" rel="noreferrer"
+                    <a href="https://wa.me/5518997056598?text=Ol%C3%A1%2C%20Maria%20Fernanda%21%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20site%20ou%20landing%20page." target="_blank" rel="noreferrer"
                     className="btn btn-purple fs-6 px-3 py-2 w-100 hstack justify-content-center menu-cta">Pedir orçamento</a>
                   </div>
                   <div className="d-flex flex-column gap-1">
