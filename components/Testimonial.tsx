@@ -94,7 +94,7 @@ export default function Testimonial() {
                     <span className="avatar-flat avatar-60 rounded-circle hstack justify-content-center flex-shrink-0" style={{ backgroundColor: '#5B2EA6', color: '#FFFFFF' }} aria-hidden="true"><iconify-icon icon="solar:user-check-bold" className="fs-6"></iconify-icon></span>
                     <div>
                       <h5 className="mb-1 fw-normal">Mariana Santos</h5>
-                      <p className="mb-0">Clínica Vida Leve</p>
+                      <p className="mb-0">Ateliê Aquarius Arte Floral</p>
                     </div>
                   </div>
                 </div>
