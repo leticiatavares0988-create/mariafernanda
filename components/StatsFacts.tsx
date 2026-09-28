@@ -28,8 +28,8 @@ export default function StatsFacts() {
                 <div className="col-md-6 col-lg-4 mb-7 mb-lg-0">
                   <div className="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="200"
                     data-aos-duration="1000">
-                    <h2 className="mb-0 fs-14">+<span className="count" data-target="2">2</span></h2>
-                    <p className="mb-0">Anos criando para a web</p>
+                    <h2 className="mb-0 fs-14">+<span className="count" data-target="6">6</span></h2>
+                    <p className="mb-0">Projetos entregues e no ar</p>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 mb-7 mb-lg-0">

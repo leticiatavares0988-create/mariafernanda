@@ -69,8 +69,8 @@ export default function WhyChooseUs() {
                   <div className="card bg-dark">
                     <div className="card-body d-flex flex-column gap-7">
                       <div>
-                        <h2 className="mb-0 text-white">+2</h2>
-                        <p className="mb-0 text-white text-opacity-70">Anos criando sites e landing pages</p>
+                        <h2 className="mb-0 text-white">+6</h2>
+                        <p className="mb-0 text-white text-opacity-70">Projetos entregues e no ar</p>
                       </div>
                       <ul className="d-flex align-items-center mb-0 list-unstyled">
                         <li>
