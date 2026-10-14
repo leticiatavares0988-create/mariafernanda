@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 
 const projects = [
+  { image: '/assets/images/portfolio/lords-planejados.jpg', title: "Lord's Planejados", tags: ['Site institucional', 'Móveis planejados'], url: 'https://lords-planejados.vercel.app' },
   { image: '/assets/images/portfolio/andreia-eiras.jpg', title: 'Andréia Eiras', tags: ['Landing page', 'Fisioterapia'], url: 'https://andreia-eiras.vercel.app' },
   { image: '/assets/images/portfolio/ana-flavia-vet.jpg', title: 'Ana Flávia', tags: ['Landing page', 'Veterinária'], url: 'https://anaflaviavet.vercel.app/' },
   { image: '/assets/images/portfolio/mafer-petsitter.jpg', title: 'Mafer Petsitter', tags: ['Landing page', 'Pet care'], url: 'https://maferpetsitter.framer.website/' },
