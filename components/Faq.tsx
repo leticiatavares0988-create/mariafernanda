@@ -75,14 +75,14 @@ export default function Faq() {
                   <h2 className="accordion-header">
                     <button className="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      Quanto custa um site para consultório ou clínica?
+                      Quanto custa um site ou landing page?
                     </button>
                   </h2>
                   <div id="flush-collapseFour" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Depende do tamanho do projeto: uma landing page para captar pacientes tem um valor, um site com
-                      várias especialidades tem outro. Me chame no WhatsApp contando sobre o seu negócio e envio um
-                      orçamento sem compromisso.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Depende do tamanho do projeto: uma landing page de uma página tem um valor, um site com várias
+                      seções tem outro. Me chame no WhatsApp contando sobre o seu negócio e envio um orçamento sem
+                      compromisso.</div>
                   </div>
                 </div>
                 <div className="accordion-item border-bottom">
