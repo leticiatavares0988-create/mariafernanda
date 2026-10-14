@@ -34,7 +34,7 @@ export default function Services() {
                     <img src="/assets/images/portfolio/aquarius-arte-floral.jpg" alt="Landing page do Ateliê Aquarius Arte Floral" width="397" height="258" className="img-fluid" />
                   </div>
                   <div className="tab-pane" id="two" role="tabpanel" aria-labelledby="two-tab" tabIndex={0}>
-                    <img src="/assets/images/portfolio/andreia-eiras.jpg" alt="Site da fisioterapeuta Andréia Eiras" width="397" height="258" className="img-fluid" />
+                    <img src="/assets/images/portfolio/lords-planejados.jpg" alt="Site da Lord's Planejados" width="397" height="258" className="img-fluid" />
                   </div>
                   <div className="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab" tabIndex={0}>
                     <img src="/assets/images/portfolio/ana-flavia-vet.jpg" alt="Site da veterinária Ana Flávia" width="397" height="258" className="img-fluid" />
