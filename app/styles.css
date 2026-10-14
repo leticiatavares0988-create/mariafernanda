@@ -16802,7 +16802,7 @@ ul {
   will-change: transform;
 }
 .projects-item {
-  width: min(85vw, 420px);
+  width: min(88vw, 560px);
 }
 @media (max-width: 991.98px) {
   .projects-viewport {
@@ -16831,7 +16831,7 @@ ul {
     padding: 110px 0 40px !important;
   }
   .projects-item {
-    width: clamp(260px, calc((100vh - 440px) * 1.536), 450px);
+    width: clamp(260px, calc((100vh - 400px) * 1.513), 620px);
   }
 }
 
@@ -16908,12 +16908,15 @@ ul {
   color: #5B2EA6;
 }
 
-/* Portfolio cards: same aspect ratio for every image */
+/* Portfolio cards: mesma proporcao do print do site, sem cortar nada */
+.projects-item .portfolio-img::before {
+  padding-top: 66.06%;
+}
+
 .projects-item .portfolio-img > img {
   width: 100%;
-  aspect-ratio: 527 / 343;
   object-fit: cover;
-  object-position: top;
+  object-position: top center;
 }
 
 /* About: testimonial card with the hero video as background */
