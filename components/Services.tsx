@@ -56,8 +56,8 @@ export default function Services() {
                         </div>
                         <div className="col-lg-6 col-xxl-7">
                           <p className="text-white text-opacity-70 mb-0">
-                            Páginas focadas em um único objetivo: fazer o paciente ou cliente agendar, pedir orçamento ou
-                            chamar no WhatsApp, com texto e layout pensados para converter.
+                            Páginas focadas em um único objetivo: fazer o cliente agendar, pedir orçamento ou chamar no
+                            WhatsApp, com texto e layout pensados para converter.
                           </p>
                         </div>
                       </div>
@@ -73,7 +73,7 @@ export default function Services() {
                         </div>
                         <div className="col-lg-6 col-xxl-7">
                           <p className="text-white text-opacity-70 mb-0">
-                            Sites completos para consultórios, clínicas e empresas apresentarem seus serviços com
+                            Sites completos para clínicas, marcenarias, lojas e empresas apresentarem seus serviços com
                             profissionalismo, fáceis de navegar em qualquer dispositivo.
                           </p>
                         </div>

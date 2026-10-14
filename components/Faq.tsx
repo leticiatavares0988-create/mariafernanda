@@ -39,9 +39,9 @@ export default function Faq() {
                   </h2>
                   <div id="flush-collapseOne" className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 fs-5 text-dark">Para profissionais e empresas que dependem de confiança para fechar clientes: psicólogos, médicos,
-                      dentistas, advogados, clínicas, consultórios e negócios locais. Crio landing pages e sites
-                      institucionais que apresentam o seu trabalho e facilitam o agendamento ou o contato.</div>
+                    <div className="accordion-body pt-0 fs-5 text-dark">Para profissionais e empresas que dependem de confiança para fechar clientes: psicólogos, clínicas,
+                      marcenarias, lojas de móveis planejados, ateliês e negócios locais. Crio landing pages e sites
+                      institucionais que apresentam o seu trabalho e facilitam o contato.</div>
                   </div>
                 </div>
                 <div className="accordion-item">
