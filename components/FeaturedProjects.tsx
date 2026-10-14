@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const projects = [
   { image: '/assets/images/portfolio/lords-planejados.jpg', title: "Lord's Planejados", tags: ['Site institucional', 'Móveis planejados'], url: 'https://lords-planejados.vercel.app' },
@@ -17,6 +17,43 @@ const projects = [
 export default function FeaturedProjects() {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
+  const viewportRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  // indicador de posicao no scroll horizontal do mobile
+  useEffect(() => {
+    const viewport = viewportRef.current;
+    const track = trackRef.current;
+    if (!viewport || !track) return;
+
+    const onScroll = () => {
+      const cards = Array.from(track.children) as HTMLElement[];
+      if (!cards.length) return;
+      const left = viewport.scrollLeft;
+      let closest = 0;
+      let smallest = Infinity;
+      cards.forEach((card, index) => {
+        const delta = Math.abs(card.offsetLeft - left);
+        if (delta < smallest) {
+          smallest = delta;
+          closest = index;
+        }
+      });
+      setActiveIndex(closest);
+    };
+
+    onScroll();
+    viewport.addEventListener('scroll', onScroll, { passive: true });
+    return () => viewport.removeEventListener('scroll', onScroll);
+  }, []);
+
+  const goToCard = (index: number) => {
+    const viewport = viewportRef.current;
+    const track = trackRef.current;
+    if (!viewport || !track) return;
+    const card = track.children[index] as HTMLElement | undefined;
+    if (card) viewport.scrollTo({ left: card.offsetLeft, behavior: 'smooth' });
+  };
 
   useEffect(() => {
     const wrapper = wrapperRef.current;
@@ -93,7 +130,7 @@ export default function FeaturedProjects() {
               </div>
             </div>
           </div>
-          <div className="featured-projects-slider projects-viewport container">
+          <div ref={viewportRef} className="featured-projects-slider projects-viewport container">
             <div ref={trackRef} className="projects-track d-flex">
               {projects.map((project, index) => (
                 <div key={index} className="projects-item flex-shrink-0">
@@ -118,6 +155,17 @@ export default function FeaturedProjects() {
                     </div>
                   </div>
                 </div>
+              ))}
+            </div>
+          </div>
+          <div className="container d-lg-none">
+            <div className="projects-dots hstack justify-content-center gap-2 pt-6">
+              {projects.map((project, index) => (
+                <button key={project.title + index} type="button"
+                  className={`projects-dot${index === activeIndex ? ' is-active' : ''}`}
+                  aria-label={`Ir para o projeto ${project.title}`}
+                  aria-current={index === activeIndex}
+                  onClick={() => goToCard(index)}></button>
               ))}
             </div>
           </div>
